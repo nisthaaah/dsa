@@ -1,6 +1,6 @@
-import java.util.Arrays;
+import java.util.*;
 
-public class eg5 {
+public class deletion {
     public static int[] deletee(int[] arr,int n, int index)
     {
       if(arr==null || index<0 ||index>= n)
@@ -19,9 +19,11 @@ public class eg5 {
 public static void main(String[] args) 
 {
     int n=6;
-    int[] arr={1,2,3,4,5,6};
+    int[] arr={1,2,3,4,5,6,7};
     System.out.println("Before deletion:\n" +Arrays.toString(arr));
-    int index=5;
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the index from where you want to delete the element: ");
+    int index=sc.nextInt();
     arr=deletee(arr,n, index); //remove the element
     System.out.println("After deletion:\n" +Arrays.toString(arr));    
 }

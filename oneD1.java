@@ -1,4 +1,4 @@
-public class eg3 {
+public class oneD1 {
     public static void main(String[] args) {
         {
             int[] arr=new int[7];

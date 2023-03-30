@@ -1,5 +1,5 @@
 import java.util.*;
-public class eg6 {
+public class oneD2 {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int size=sc.nextInt();

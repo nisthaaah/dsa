@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class eg8 {
+public class linearsearch {
    public static void main(String args[]){
     Scanner sc= new Scanner(System.in);
     int r=sc.nextInt();

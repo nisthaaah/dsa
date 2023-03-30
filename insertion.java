@@ -1,10 +1,9 @@
 import java.util.Arrays;
 
-public class eg4 {
+public class insertion {
     public static int[] inserte(int n,int arr[],int e, int pos) {
-        int i;
         int newarr[]=new int[n+1];
-        for(i=0; i<n+1; i++){
+        for(int i=0; i<n+1; i++){
             if(i < pos-1)
                 newarr[i]=arr[i];
             else if(i==pos-1)

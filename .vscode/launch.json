@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "array",
+      "request": "launch",
+      "mainClass": "array",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "twoD",
+      "request": "launch",
+      "mainClass": "twoD",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "oneD",
+      "request": "launch",
+      "mainClass": "oneD",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "eg5",
+      "request": "launch",
+      "mainClass": "eg5",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "eg11",
+      "request": "launch",
+      "mainClass": "eg11",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "eg10",
       "request": "launch",
       "mainClass": "eg10",

@@ -1,5 +1,5 @@
 import java.util.*;
-class eg2{
+class twoD{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
