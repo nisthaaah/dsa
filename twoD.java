@@ -9,15 +9,18 @@ class twoD{
 
         int numbers[][]= new int[r][c];
 
+        //input
         for(int i=0; i<r; i++){
             for(int j=0; j<c; j++){
             numbers[i][j]=sc.nextInt();
             }
     }
+        //output
         for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++)
-        System.out.println(numbers[i][j]);
+            for(int j=0; j<c; j++){
+        System.out.print(numbers[i][j] + " ");
         }
         System.out.println();
+}
 }
 }

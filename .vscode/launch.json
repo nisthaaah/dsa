@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "pattern4",
+      "request": "launch",
+      "mainClass": "pattern4",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern3",
+      "request": "launch",
+      "mainClass": "pattern3",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern2",
+      "request": "launch",
+      "mainClass": "pattern2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern1",
+      "request": "launch",
+      "mainClass": "pattern1",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "linearsearch",
+      "request": "launch",
+      "mainClass": "linearsearch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "array",
       "request": "launch",
       "mainClass": "array",
