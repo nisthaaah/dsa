@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "BinarySearch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "binarysearch",
+      "request": "launch",
+      "mainClass": "binarysearch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "eg",
+      "request": "launch",
+      "mainClass": "eg",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "pattern15",
       "request": "launch",
       "mainClass": "pattern15",
