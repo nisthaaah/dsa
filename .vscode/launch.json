@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "pattern20",
+      "request": "launch",
+      "mainClass": "pattern20",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern19",
+      "request": "launch",
+      "mainClass": "pattern19",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern18",
+      "request": "launch",
+      "mainClass": "pattern18",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern17",
+      "request": "launch",
+      "mainClass": "pattern17",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern16",
+      "request": "launch",
+      "mainClass": "pattern16",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "BinarySearch",
       "request": "launch",
       "mainClass": "BinarySearch",

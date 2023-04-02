@@ -6,7 +6,7 @@ public class oneD2 {
         String names[] = new String[size];
       
         for(int i=0; i<size; i++){
-            names[i]=sc.next();
+            names[i]=sc.nextInt();
         }
 
         for(int i=0; i<size; i++){

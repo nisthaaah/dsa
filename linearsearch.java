@@ -7,10 +7,10 @@ public class linearsearch {
     int r=sc.nextInt();
     int c=sc.nextInt();
 
+    System.out.println("Enter the elements: ");
     int[][] numbers = new int[r][c];
     for(int i=0; i<r; i++){
         for(int j=0; j<c; j++){
-            System.out.println("Enter the elements: ");
             numbers[i][j]=sc.nextInt();
 
         }}
