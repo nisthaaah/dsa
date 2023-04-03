@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class linearsearch {
    public static void main(String args[]){
@@ -21,6 +21,9 @@ public class linearsearch {
             for(int j=0; j<c; j++){
                 if(x == numbers[i][j]){
                     System.out.println("x found at:" + i + "," + j + "");
+                }
+                else{
+                    System.out.println("not found");
                 }
             }
         }

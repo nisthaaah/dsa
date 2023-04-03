@@ -1,6 +1,6 @@
-import java.util.*;
-public class pattern2 {
-    public static void main(String[] args) {
+import java.util.Scanner;
+public class hollow_rectangle {
+    public static void main(String args[]) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value of m and n: ");
         int m=sc.nextInt();

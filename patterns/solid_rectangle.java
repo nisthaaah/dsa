@@ -1,5 +1,5 @@
 import java.util.*;
-public class pattern1 {
+public class solid_rectangle {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value of m and n: ");

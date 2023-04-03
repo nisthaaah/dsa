@@ -1,5 +1,5 @@
 import java.util.*;
-public class pattern10 {
+public class rhombus {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value of n: ");

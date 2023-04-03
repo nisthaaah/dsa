@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "butterfly",
+      "request": "launch",
+      "mainClass": "butterfly",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "zo_triangle",
+      "request": "launch",
+      "mainClass": "zo_triangle",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern8",
+      "request": "launch",
+      "mainClass": "pattern8",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "linearsearch",
+      "request": "launch",
+      "mainClass": "search.linearsearch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern2",
+      "request": "launch",
+      "mainClass": "patterns.pattern2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "pattern21",
+      "request": "launch",
+      "mainClass": "pattern21",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "pattern20",
       "request": "launch",
       "mainClass": "pattern20",
