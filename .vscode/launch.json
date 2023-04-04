@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bs",
+      "request": "launch",
+      "mainClass": "bs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "bubbleSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "bubbleSort",
+      "request": "launch",
+      "mainClass": "sort.bubbleSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "butterfly",
       "request": "launch",
       "mainClass": "butterfly",
