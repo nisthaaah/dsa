@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "recursion3",
+      "request": "launch",
+      "mainClass": "recursion.recursion3",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Recursion2",
+      "request": "launch",
+      "mainClass": "recursion.Recursion2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Recursion1",
       "request": "launch",
       "mainClass": "recursion.Recursion1",
