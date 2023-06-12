@@ -1,6 +1,6 @@
 package recursion;
 
-public class recursion3 {
+public class Recursion3 {
     public static void printsum(int i, int n, int sum){
         if(i==n){
             sum += i;
