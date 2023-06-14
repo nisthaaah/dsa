@@ -59,21 +59,47 @@ public class LinkedList1 {
         length++;
     }
     public Node removeLast() {
-        if(length==0){
+        if(length == 0){
             System.out.println("List is empty");
         }
-        Node temp=head;
-        Node prev=head;
-        while(temp.next!=null){
-            prev=temp;
-            temp=temp.next;
+        Node temp = head;
+        Node prev = head;
+        while(temp.next != null){
+            prev = temp;
+            temp = temp.next;
     }
     tail=prev;
-    tail.next=null;
+    tail.next = null;
     length--;
     if(length==0){
-        head=null;
-        tail=null;
+        head = null;
+        tail = null;
     }
     return temp;
-    }}
+    }
+    public void prepend(int value) {
+        Node newNode = new Node(value);
+        if(length == 0){
+            head = newNode;
+            tail = newNode; 
+        }
+        else{
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
+    }
+    public Node removeFirst() {
+        if(length == 0){
+            System.out.println("List is Empty!");
+        }
+        Node temp = head;
+        head =head.next;
+        temp.next = null;
+        length--;
+    if(length == 0){
+    tail = null;
+    }
+    return temp;
+    }
+}
