@@ -12,6 +12,7 @@ public class Main {
         ll.prepend(3);
         ll.removeFirst();
         
+        
 
         System.out.println("\nLinked List:");
         ll.printList();
@@ -21,6 +22,10 @@ public class Main {
         //System.out.println(ll.removeLast());
         //ll.removeLast();
         //ll.printList();
+        System.out.println("The value at the index: ");
+        System.out.println(ll.get(1).value);
+        
+
         
     }
 }
