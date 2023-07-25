@@ -7,10 +7,14 @@ public class Main {
         ll.getHead();
         ll.getTail();
         ll.getLength();
+        ll.set(1, 4);
         ll.append(2);
         ll.append(8);
         ll.prepend(3);
-        ll.removeFirst();
+        //ll.removeFirst();
+        //ll.insert(1, 0);
+        //ll.remove(2);
+        //ll.reverse();
         
         
 
@@ -24,8 +28,6 @@ public class Main {
         //ll.printList();
         System.out.println("The value at the index: ");
         System.out.println(ll.get(1).value);
-        
-
         
     }
 }
