@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main3",
+      "request": "launch",
+      "mainClass": "queue.Main3",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Main2",
+      "request": "launch",
+      "mainClass": "stack.Main2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main1",
       "request": "launch",
       "mainClass": "Main1",
