@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main4",
+      "request": "launch",
+      "mainClass": "binarysearchtrees.Main4",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main3",
       "request": "launch",
       "mainClass": "queue.Main3",

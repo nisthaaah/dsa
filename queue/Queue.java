@@ -37,7 +37,7 @@ public class Queue {
     }
 
     public void getLast() {
-        if (first == null) {
+        if (last == null) {
             System.out.println("Last: null");
         } else {
             System.out.println("Last: " + last.value);
@@ -77,7 +77,4 @@ public class Queue {
         length--;
         return temp;   
     }
-
-
-    
 }
