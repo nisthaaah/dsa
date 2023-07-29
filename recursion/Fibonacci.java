@@ -2,7 +2,7 @@ package recursion;
 
 import java.util.Scanner;
 
-public class Recursion5 {
+public class Fibonacci {
     public static void fibn(int a, int b, int n){
         if(n==0){
             return;
@@ -18,10 +18,8 @@ public class Recursion5 {
         int n= sc.nextInt();
         System.out.println(a);
         System.out.println(b);
+        System.out.println("Fibonacci series: ");
         fibn(a, b, n-2);
     }
-
-
-
 
 }

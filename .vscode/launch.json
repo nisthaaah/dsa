@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main6",
+      "request": "launch",
+      "mainClass": "recursiveBST.Main6",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Main6",
+      "request": "launch",
+      "mainClass": "recursion.Main6",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "recursion.Palindrome",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Print",
+      "request": "launch",
+      "mainClass": "recursion.Print",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Power",
+      "request": "launch",
+      "mainClass": "recursion.Power",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Recursion6",
+      "request": "launch",
+      "mainClass": "recursion.Recursion6",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "number2_pyramid",
+      "request": "launch",
+      "mainClass": "number2_pyramid",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "half_pyramid2",
+      "request": "launch",
+      "mainClass": "half_pyramid2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main4",
       "request": "launch",
       "mainClass": "binarysearchtrees.Main4",

@@ -1,6 +1,6 @@
 package recursion;
 
-class Recursion1{
+class Print{
     public static void printn(int n){
         if(n==0){
             return;
