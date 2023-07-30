@@ -4,15 +4,25 @@ public class Main6 {
     public static void main(String[] args) {
         rBST rec=new rBST();
 
-        rec.rInsert(89);
-        rec.rInsert(79);
-        rec.rInsert(59);
-        rec.rInsert(40);
-        rec.rInsert(90);
+        rec.rInsert(47);
+        rec.rInsert(21);
+        rec.rInsert(76);
+        rec.rInsert(18);
+        rec.rInsert(27);
+        rec.rInsert(52);
+        rec.rInsert(82);
+        rec.rInsert(50);
+        rec.rInsert(54);
+        rec.rInsert(24);
+        rec.rInsert(29);
+        rec.deleteNode(21);
+        
 
-        // System.out.println(rec.rContains(0));
-        // System.out.println(rec.rContains(90));
-        System.out.println(rec.root.left.value);
+        //System.out.println("The BST contains the value: " +rec.rContains(0));
+        //System.out.println("The BST contains the value: " +rec.rContains(90));
+        //System.out.println("The root of the BST: " +rec.root.left.value);
+        //System.out.println("Minimum value: " +rec.minValue(rec.root));
+        System.out.println("Minimum value: " +rec.minValue(rec.root.right));
 
 
 
