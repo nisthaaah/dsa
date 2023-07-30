@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main7",
+      "request": "launch",
+      "mainClass": "Main7",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "insertionSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "selectionSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main6",
       "request": "launch",
       "mainClass": "recursiveBST.Main6",
