@@ -15,17 +15,14 @@ public class Main6 {
         rec.rInsert(54);
         rec.rInsert(24);
         rec.rInsert(29);
-        rec.deleteNode(21);
+        rec.deleteNode(76);
         
 
         //System.out.println("The BST contains the value: " +rec.rContains(0));
         //System.out.println("The BST contains the value: " +rec.rContains(90));
-        //System.out.println("The root of the BST: " +rec.root.left.value);
+        System.out.println("The root of the BST: " +rec.root.right.value);
         //System.out.println("Minimum value: " +rec.minValue(rec.root));
         System.out.println("Minimum value: " +rec.minValue(rec.root.right));
-
-
-
     }
     
 }

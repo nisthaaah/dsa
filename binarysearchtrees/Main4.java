@@ -6,12 +6,14 @@ public class Main4 {
         myBST.insert(9);
         myBST.insert(-5);
         myBST.insert(123);
+        myBST.insert(10);
         myBST.insert(4);
+        System.out.println(myBST.minValue(myBST.root.right));
         
 
 
         //System.out.println(myBST.root.left.value);
-        System.out.println(myBST.contains(0));
-        System.out.println(myBST.contains(9));
+        //System.out.println(myBST.contains(0));
+        //System.out.println(myBST.contains(9));
     }
 }

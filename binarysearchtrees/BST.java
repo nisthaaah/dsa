@@ -23,17 +23,17 @@ public class BST {
                 if(newNode.value == temp.value) return false;
                 if(newNode.value < temp.value){
                     if(temp.left == null){
-                        temp.left= newNode;
+                        temp.left = newNode;
                         return true;
                     }
-                    else  temp=temp.left ;
+                    else  temp = temp.left ;
                 }
                 else{
                     if (temp.right == null) {
                         temp.right = newNode;
                         return true;
                     }
-                    else  temp=temp.right ;
+                    else  temp = temp.right ;
                 }
                 }
             }
@@ -52,9 +52,13 @@ public class BST {
                 } 
                 return false;
         }
-
-        
-
+        public int minValue(Node currNode){
+            while(currNode.left != null){
+                currNode = currNode.left;
+            }
+            
+            return currNode.value;
+        }  
     }
 
 

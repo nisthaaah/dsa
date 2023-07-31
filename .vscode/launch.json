@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "mergeSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "mSort",
+      "request": "launch",
+      "mainClass": "mSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main7",
       "request": "launch",
       "mainClass": "Main7",

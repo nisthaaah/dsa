@@ -15,15 +15,15 @@ public class rBST {
     private Node rInsert(Node currNode, int value){
         if(currNode == null) return new Node(value);
         if(value < currNode.value){
-            currNode.left=rInsert(currNode.left, value);
+            currNode.left = rInsert(currNode.left, value);
         }
-        else{
-            currNode.right=rInsert(currNode.right, value);
+        else if(value > currNode.value){
+            currNode.right = rInsert(currNode.right, value);
         }
         return currNode;
     }
     public void rInsert(int value){
-         if(root==null) root=new Node(value);
+        if(root==null) root = new Node(value);
         rInsert(root, value);
     }
     
@@ -62,7 +62,6 @@ public class rBST {
                 currNode.value = subTreeMin;
                 currNode.right = deleteNode(currNode.right,subTreeMin );
             }
-
         }
         return currNode;
     }
@@ -70,12 +69,12 @@ public class rBST {
     public void deleteNode(int value){
         deleteNode(root, value);
     }
-    
-     public int minValue(Node currNode){
+
+    public int minValue(Node currNode){
         while(currNode.left != null){
             currNode = currNode.left;
         }
         return currNode.value;
-    }
+    }  
     
 }
