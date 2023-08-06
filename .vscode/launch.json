@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "cruiseParty",
+      "request": "launch",
+      "mainClass": "tcs.cruiseParty",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "removeDuplicates",
+      "request": "launch",
+      "mainClass": "removeDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "longestString",
+      "request": "launch",
+      "mainClass": "longestString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "maxMin",
+      "request": "launch",
+      "mainClass": "maxMin",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "removeElement",
+      "request": "launch",
+      "mainClass": "removeElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "quickSort",
+      "request": "launch",
+      "mainClass": "quickSort",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mergeSort",
       "request": "launch",
       "mainClass": "mergeSort",
