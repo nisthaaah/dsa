@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "lostinForest",
+      "request": "launch",
+      "mainClass": "tcs.lostinForest",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "cruiseParty",
       "request": "launch",
       "mainClass": "tcs.cruiseParty",
