@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "parkingSpace",
+      "request": "launch",
+      "mainClass": "tcs.parkingSpace",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "maxArr",
       "request": "launch",
       "mainClass": "tcs.maxArr",
