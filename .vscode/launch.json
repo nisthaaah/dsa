@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maxArr",
+      "request": "launch",
+      "mainClass": "tcs.maxArr",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "validString",
+      "request": "launch",
+      "mainClass": "tcs.validString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "vehicleProduction",
+      "request": "launch",
+      "mainClass": "tcs.vehicleProduction",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "vehicle",
+      "request": "launch",
+      "mainClass": "tcs.vehicle",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "isSubset",
+      "request": "launch",
+      "mainClass": "tcs.isSubset",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "EquilibriumElement",
+      "request": "launch",
+      "mainClass": "tcs.EquilibriumElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "rotateArr",
       "request": "launch",
       "mainClass": "tcs.rotateArr",
