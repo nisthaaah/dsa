@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rotateArr",
+      "request": "launch",
+      "mainClass": "tcs.rotateArr",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "nonRepeating",
+      "request": "launch",
+      "mainClass": "tcs.nonRepeating",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "nonRepeating$FirstNonRepeatingElement",
+      "request": "launch",
+      "mainClass": "tcs.nonRepeating$FirstNonRepeatingElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "lostinForest",
       "request": "launch",
       "mainClass": "tcs.lostinForest",
