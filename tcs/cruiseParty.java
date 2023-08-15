@@ -9,12 +9,12 @@ public class cruiseParty{
 
     int e[]=new int[t]; 
     int l[]=new int[t];
+        System.out.println("Number of guests entering at each hour:");
         for(int i=0;i<t;i++){
-            System.out.println("Number of guests entering at each hour:");
             e[i]=sc.nextInt();
         }
+        System.out.println("Number of guests leaving at each hour:");
         for(int i=0;i<t;i++){
-            System.out.println("Number of guests leaving at each hour:");
             l[i]=sc.nextInt();
         }
         int max=0,sum=0; 

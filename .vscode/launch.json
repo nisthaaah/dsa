@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "hash.Main",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "hs",
+      "request": "launch",
+      "mainClass": "hs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "TestCollection16",
+      "request": "launch",
+      "mainClass": "TestCollection16",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "hashtable.Main",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "recursion.Fibonacci",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "doctorFee",
+      "request": "launch",
+      "mainClass": "tcs.doctorFee",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "candiesJar",
+      "request": "launch",
+      "mainClass": "tcs.candiesJar",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "balloonColor",
+      "request": "launch",
+      "mainClass": "tcs.balloonColor",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "parkingSpace",
       "request": "launch",
       "mainClass": "tcs.parkingSpace",
