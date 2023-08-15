@@ -1,4 +1,4 @@
-package leetcode.HashTable;
+package leetcode.HashMap;
 import java.util.*;
 
 public class nonRepeatingChar {

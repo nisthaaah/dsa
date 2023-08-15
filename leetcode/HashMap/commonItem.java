@@ -1,4 +1,4 @@
-package leetcode.HashTable;
+package leetcode.HashMap;
 import java.util.HashMap;
 
 public class commonItem {

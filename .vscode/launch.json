@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findPairs",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.findPairs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "removeDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.removeDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subArraySum",
+      "request": "launch",
+      "mainClass": "leetcode.HashTable.subArraySum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "twoSum",
       "request": "launch",
       "mainClass": "leetcode.HashTable.twoSum",
