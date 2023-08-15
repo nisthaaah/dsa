@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "longestConsecutiveSequence",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.longestConsecutiveSequence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "hasUniqueChar",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.hasUniqueChar",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "findPairs",
       "request": "launch",
       "mainClass": "leetcode.HashSet.findPairs",

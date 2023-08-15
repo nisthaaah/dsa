@@ -26,7 +26,7 @@ public class findPairs {
         List<int[]> pairs = findPairs(arr1, arr2, target);
         for (int[] pair : pairs) {
             System.out.println(Arrays.toString(pair));
-        }
-    }
     
+    }
+  }
 }
