@@ -1,3 +1,4 @@
+package leetcode.Array;
 public class longestString {
     public static String findLongestString(String[] stringList){
         if (stringList == null) {

@@ -1,4 +1,4 @@
-package leetcode.LL;
+package leetcode.LinkedList;
 
 public class Ques{
     private Node head;

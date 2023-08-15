@@ -1,4 +1,4 @@
-package leetcode.LL;
+package leetcode.LinkedList;
 
 public class Main {
 

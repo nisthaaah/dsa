@@ -1,3 +1,4 @@
+package leetcode.Sorting;
 public class sSort {
         private Node head;
         private Node tail;

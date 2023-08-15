@@ -1,3 +1,4 @@
+package leetcode.Array;
 import java.util.Arrays;
 
 public class maxMin {

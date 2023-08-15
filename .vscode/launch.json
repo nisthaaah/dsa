@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "twoSum",
+      "request": "launch",
+      "mainClass": "leetcode.HashTable.twoSum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "nonRepeatingChar",
+      "request": "launch",
+      "mainClass": "leetcode.HashTable.nonRepeatingChar",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "findDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.HashTable.findDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Hash",
+      "request": "launch",
+      "mainClass": "interviewQuesHT.Hash",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Array",
+      "request": "launch",
+      "mainClass": "interviewQuesHT.Array",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "hash.Main",
