@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "strings.reverse",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "StrBuilder",
+      "request": "launch",
+      "mainClass": "strings.StrBuilder",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "strings.Strings",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "streamMax",
+      "request": "launch",
+      "mainClass": "leetcode.Heap.streamMax",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "findKthSmallest",
+      "request": "launch",
+      "mainClass": "leetcode.Heap.findKthSmallest",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "heap.Main",

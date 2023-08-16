@@ -1,10 +1,10 @@
-package heap;
+package leetcode.Heap;
 import java.util.*;
 
-public class maxHeap {
+public class Heap {
     private List<Integer> heapList;
 
-    public maxHeap(){
+    public Heap(){
         this.heapList = new ArrayList<>();
     }
 
