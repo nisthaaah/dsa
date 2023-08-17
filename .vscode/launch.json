@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "parentheses",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.parentheses",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "longestPrefix",
       "request": "launch",
       "mainClass": "strings.longestPrefix",

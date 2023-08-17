@@ -60,7 +60,5 @@ public class Stack {
             height--;
             return temp;
         }
-        
-
     } 
 }
