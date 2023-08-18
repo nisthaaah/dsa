@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "merge",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.merge",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.Main",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "middleNode",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.middleNode",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "parentheses",
       "request": "launch",
       "mainClass": "leetcode.Stack.parentheses",

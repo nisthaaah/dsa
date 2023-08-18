@@ -1,6 +1,37 @@
 package leetcode.LinkedList;
 
-public class Ques{
+public class middleNode{
+    
+    //find Middle node
+    public Node findMiddleNode(){
+        Node slow=head;
+        Node fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        return slow;
+    }
+
+    //has Loop
+    public boolean hasLoop(){
+	    
+	    Node fast = head;
+	    Node slow =head;
+	    
+	    while( fast != null && fast .next != null ){
+	          slow = slow.next;
+	          fast=fast.next.next;
+	          
+	          if( fast == slow ){
+	        return true;
+	              
+	          }
+	    }
+	    return false;
+	}
+    
+    //methods
     private Node head;
     private Node tail;
 
@@ -13,7 +44,7 @@ public class Ques{
         }
     }
 
-    public Ques(int value) {
+    public middleNode(int value) {
         Node newNode = new Node(value);
         head = newNode;
         tail = newNode;
@@ -66,34 +97,4 @@ public class Ques{
             tail = newNode;
         }
     }
-
-    //find Middle node
-    public Node findMiddleNode(){
-        Node slow=head;
-        Node fast=head;
-        while(fast!=null && fast.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
-        }
-        return slow;
-    }
-
-    //has Loop
-    public boolean hasLoop(){
-	    
-	    Node fast = head;
-	    Node slow =head;
-	    
-	    while( fast != null && fast .next != null ){
-	          slow = slow.next;
-	          fast=fast.next.next;
-	          
-	          if( fast == slow ){
-	        return true;
-	              
-	          }
-	    }
-	    return false;
-	}
-    
 }
