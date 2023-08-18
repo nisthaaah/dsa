@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "searchInsert",
+      "request": "launch",
+      "mainClass": "leetcode.Search.searchInsert",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "firstOccurence",
       "request": "launch",
       "mainClass": "strings.firstOccurence",

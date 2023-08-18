@@ -21,7 +21,7 @@ public class firstOccurence {
         return -1;
     }
     public static void main(String[] args){
-        System.out.println(strStr("sadbutsad", "but"));
+        System.out.println(strStr("sadbutsad", "sad"));
     }
     
 }
