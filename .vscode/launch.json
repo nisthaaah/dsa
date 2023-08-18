@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "firstOccurence",
+      "request": "launch",
+      "mainClass": "strings.firstOccurence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "firstOccurence",
+      "request": "launch",
+      "mainClass": "slidingWindow.firstOccurence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "MaxSumKConsecutive",
+      "request": "launch",
+      "mainClass": "slidingWindow.MaxSumKConsecutive",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "removeElement",
+      "request": "launch",
+      "mainClass": "leetcode.Array.removeElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "eg",
+      "request": "launch",
+      "mainClass": "leetcode.Array.eg",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "merge",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.merge",

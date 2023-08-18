@@ -12,7 +12,7 @@ public class removeDuplicates {
              }
          }
              return currSize;
-         }
+         } //O(n)
 
          public static void main(String[] args) {
 
