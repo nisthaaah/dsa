@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sqrtX",
+      "request": "launch",
+      "mainClass": "leetcode.Random.sqrtX",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "addBinary",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.addBinary",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "plusOne",
       "request": "launch",
       "mainClass": "leetcode.Array.plusOne",
