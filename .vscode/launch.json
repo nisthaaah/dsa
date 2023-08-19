@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "plusOne",
+      "request": "launch",
+      "mainClass": "leetcode.Array.plusOne",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "lastWord",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.lastWord",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "searchInsert",
       "request": "launch",
       "mainClass": "leetcode.Search.searchInsert",
