@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.rDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "climbStairs",
+      "request": "launch",
+      "mainClass": "leetcode.Random.climbStairs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sqrtX",
       "request": "launch",
       "mainClass": "leetcode.Random.sqrtX",
