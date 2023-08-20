@@ -15,6 +15,8 @@ public class Main4 {
         System.out.println("Depth First Search(Pre Order): " +myBST.DFSPreOrder());
         System.out.println("Depth First Search(Post Order): " +myBST.DFSPostOrder());
         System.out.println("Depth First Search(In Order): " +myBST.DFSInOrder());
+        //System.out.println("Depth First Search(In Order): " +myBST.inOrder(myBST.root));
+
 
         
 

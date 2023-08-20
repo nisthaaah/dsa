@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isSymmetric",
+      "request": "launch",
+      "mainClass": "leetcode.BST.isSymmetric",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "isSame",
+      "request": "launch",
+      "mainClass": "leetcode.BST.isSame",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "recursion",
       "request": "launch",
       "mainClass": "recursion",

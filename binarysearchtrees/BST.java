@@ -124,7 +124,7 @@ public class BST {
                         new Traverse(currNode.left); 
                     }
                     results.add(currNode.value);
-                    
+
                     if (currNode.right != null) {
                         new Traverse(currNode.right);
                     }
@@ -133,6 +133,19 @@ public class BST {
             new Traverse(root);
             return results;
         }
+
+        public List<Integer> inOrder(Node root){
+            List<Integer> result = new ArrayList<>();
+            helper(root, result);
+            return result;
+         }
+        public void helper(Node root, List<Integer> result){
+            if(root!= null){
+                helper(root.left, result);
+                result.add(root.value);
+                helper(root.right, result);
+            }
+         }
     }
 
 
