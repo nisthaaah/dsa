@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mergeSorted",
+      "request": "launch",
+      "mainClass": "leetcode.Array.mergeSorted",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "rDuplicates",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.rDuplicates",
