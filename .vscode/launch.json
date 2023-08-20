@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "recursion",
+      "request": "launch",
+      "mainClass": "recursion",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mergeSorted",
       "request": "launch",
       "mainClass": "leetcode.Array.mergeSorted",

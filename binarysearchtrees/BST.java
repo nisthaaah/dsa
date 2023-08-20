@@ -1,4 +1,6 @@
 package binarysearchtrees;
+import java.util.*;
+
 public class BST {
     Node root;
 
@@ -58,7 +60,79 @@ public class BST {
             }
             
             return currNode.value;
-        }  
+        } 
+        public ArrayList<Integer> BFS(){
+            Node currNode = root;
+            Queue queue = new LinkedList<>();
+            ArrayList<Integer> results = new ArrayList<>();
+            queue.add(currNode);
+
+            while(queue.size() > 0){
+                currNode = (Node) queue.remove();
+                results.add(currNode.value);
+                if(currNode.left != null){
+                    queue.add(currNode.left);
+                }
+                if(currNode.right != null){
+                    queue.add(currNode.right);
+                }
+            }
+            return results;
+        } 
+
+        public ArrayList<Integer> DFSPreOrder() {
+            ArrayList<Integer> results = new ArrayList<>();
+    
+            class Traverse { //inner class
+                Traverse(Node currNode) {
+                    results.add(currNode.value);
+                    if (currNode.left != null) {
+                        new Traverse(currNode.left); 
+                    }
+                    if (currNode.right != null) {
+                        new Traverse(currNode.right);
+                    }
+                }
+            }
+            new Traverse(root);
+            return results;
+        }
+
+        public ArrayList<Integer> DFSPostOrder() {
+            ArrayList<Integer> results = new ArrayList<>();
+            
+            class Traverse{
+                Traverse(Node currNode){
+                    if (currNode.left != null) {
+                        new Traverse(currNode.left); 
+                    }
+                    if (currNode.right != null) {
+                        new Traverse(currNode.right);
+                    }
+                    results.add(currNode.value);
+                }
+            }
+            new Traverse(root);
+            return results;
+        }
+
+        public ArrayList<Integer> DFSInOrder() {
+            ArrayList<Integer> results = new ArrayList<>();
+            class Traverse{
+                Traverse(Node currNode){
+                    if (currNode.left != null) {
+                        new Traverse(currNode.left); 
+                    }
+                    results.add(currNode.value);
+                    
+                    if (currNode.right != null) {
+                        new Traverse(currNode.right);
+                    }
+                }
+            }
+            new Traverse(root);
+            return results;
+        }
     }
 
 

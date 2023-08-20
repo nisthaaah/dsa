@@ -3,12 +3,19 @@ package binarysearchtrees;
 public class Main4 {
     public static void main(String[] args){
         BST myBST = new BST();
-        myBST.insert(9);
-        myBST.insert(-5);
-        myBST.insert(123);
-        myBST.insert(10);
-        myBST.insert(4);
-        System.out.println(myBST.minValue(myBST.root.right));
+        myBST.insert(47);
+        myBST.insert(21);
+        myBST.insert(76);
+        myBST.insert(18);
+        myBST.insert(27);
+        myBST.insert(52);
+        myBST.insert(82);
+        System.out.println("Breadth First Search: " +myBST.BFS());
+        //System.out.println(myBST.root.right.left.left.value);
+        System.out.println("Depth First Search(Pre Order): " +myBST.DFSPreOrder());
+        System.out.println("Depth First Search(Post Order): " +myBST.DFSPostOrder());
+        System.out.println("Depth First Search(In Order): " +myBST.DFSInOrder());
+
         
 
 
