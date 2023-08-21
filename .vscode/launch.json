@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "number_pyramid",
+      "request": "launch",
+      "mainClass": "number_pyramid",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "hasPathSum",
+      "request": "launch",
+      "mainClass": "leetcode.BST.hasPathSum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "minDepth",
       "request": "launch",
       "mainClass": "leetcode.BST.minDepth",
