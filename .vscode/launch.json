@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "balancedBinaryTree",
+      "request": "launch",
+      "mainClass": "leetcode.BST.balancedBinaryTree",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "sortedArrayToBST",
+      "request": "launch",
+      "mainClass": "leetcode.BST.sortedArrayToBST",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "maxDepth",
+      "request": "launch",
+      "mainClass": "leetcode.BST.maxDepth",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "isSymmetric",
       "request": "launch",
       "mainClass": "leetcode.BST.isSymmetric",

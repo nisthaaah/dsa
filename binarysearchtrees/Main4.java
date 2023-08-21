@@ -18,9 +18,6 @@ public class Main4 {
         //System.out.println("Depth First Search(In Order): " +myBST.inOrder(myBST.root));
 
 
-        
-
-
         //System.out.println(myBST.root.left.value);
         //System.out.println(myBST.contains(0));
         //System.out.println(myBST.contains(9));
