@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Palindrome {
     public static boolean isPalindrome(String s, int start, int end){
         s= s.toLowerCase();
-        if (start >=end) return true;
+        if (start >= end) return true;
         if(s.charAt(start) == s.charAt(end)){
             return isPalindrome(s, start+1, end-1);
         }

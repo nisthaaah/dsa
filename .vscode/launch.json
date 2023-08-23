@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isPalindrome",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.isPalindrome",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sellerBuyer",
       "request": "launch",
       "mainClass": "leetcode.Random.sellerBuyer",
