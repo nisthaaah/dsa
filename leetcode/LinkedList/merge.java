@@ -11,9 +11,6 @@ public class merge {
         Node(int value) {
             this.value = value;
         }
-
-        public void printList() {
-        }
     }
 
     public void append(int value) {

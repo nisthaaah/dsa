@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hasLoop",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.hasLoop",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "singleElement",
+      "request": "launch",
+      "mainClass": "leetcode.Array.singleElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "isPalindrome",
       "request": "launch",
       "mainClass": "leetcode.Strings.isPalindrome",
