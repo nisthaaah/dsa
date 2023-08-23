@@ -6,24 +6,24 @@ public class pascalsTriangle {
         if (numRows == 0) return new ArrayList<>();
 
         List<List<Integer>> result = new ArrayList();
-        for(int i= 1; i <= numRows; i++){
+        for(int i = 0; i < numRows; i++){ // 0 < 4
             List<Integer> row = new ArrayList<>();
-            for(int j =0; j < i; j++ ){
-                if(j==0 || j == i-1){
-                    row.add(1);
-                }
-                else{
-                    row.add(result.get(i-2).get(j) + result.get(i-2).get(j-1));
+            for(int j = 0; j <= i; j++ ){ //0 <= 4
+                if(j==0 || j == i){                                                      //  1 
+                    row.add(1);                                                       // 1   1
+                }                                                                      // 1  2  1 [1st row(2nd element) + 1st row(1st element)]
+                else{                                                                 // 1  3  3  1
+                    row.add(result.get(i-1).get(j) + result.get(i-1).get(j-1)); 
                 }
             }
             result.add(row);
         }
         return result;
-    }
+    } //O(n^2)
 
     public static void main(String[] args){
         pascalsTriangle p = new pascalsTriangle();
-        int numRows = 5;
+        int numRows = 4;
 
         System.out.println("The pascal's triangle is:\n" +p.pascT(numRows));
     }
