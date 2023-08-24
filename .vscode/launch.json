@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "postOrder",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.postOrder",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "preOrder",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.preOrder",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "hasLoop",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.hasLoop",
