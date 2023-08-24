@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "convertToTitle",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.convertToTitle",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "intersection",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.intersection",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "postOrder",
       "request": "launch",
       "mainClass": "leetcode.Stack.postOrder",
