@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "convertToNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.convertToNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "majorityElement",
+      "request": "launch",
+      "mainClass": "leetcode.Array.majorityElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "findDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.HashMap.findDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "convertToTitle",
       "request": "launch",
       "mainClass": "leetcode.Strings.convertToTitle",
