@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isomorphicStrings",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.isomorphicStrings",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "removeElements",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.removeElements",
