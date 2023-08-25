@@ -67,15 +67,15 @@ public class LinkedList1 {
         while(temp.next != null){
             prev = temp;
             temp = temp.next;
-    }
-    tail=prev;
-    tail.next = null;
-    length--;
-    if(length==0){
-        head = null;
-        tail = null;
-    }
-    return temp;
+        }
+        tail=prev;
+        tail.next = null;
+        length--;
+        if(length==0){
+            head = null;
+            tail = null;
+        }
+        return temp;
     }
     public void prepend(int value) {
         Node newNode = new Node(value);
@@ -94,7 +94,7 @@ public class LinkedList1 {
             System.out.println("List is Empty!");
         }
         Node temp = head;
-        head =head.next;
+        head = head.next;
         temp.next = null;
         length--;
     if(length == 0){
@@ -102,6 +102,7 @@ public class LinkedList1 {
     }
     return temp;
     }
+
     public Node get(int index) {
         if(index < 0 || index >= length){
             return null;
@@ -112,15 +113,16 @@ public class LinkedList1 {
         }
         return temp;
     }
-public boolean set(int index, int value){
+    public boolean set(int index, int value){
     Node temp=get(index);
     if(temp!= null){
         temp.value=value;
         return true;
     }
     return false;
-}
-public boolean insert(int index, int value){
+    }
+
+    public boolean insert(int index, int value){
     if(index < 0 || index > length)
     return false;
     if(index == 0){
@@ -137,8 +139,9 @@ public boolean insert(int index, int value){
     temp.next = newNode;
     length++;
     return true;
-}
-public Node remove(int index){
+    
+    }
+    public Node remove(int index){
     if (index < 0 || index >= length){
         return null;
     }

@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "removeElements",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.removeElements",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "happyNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Random.happyNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "hamminWeight",
       "request": "launch",
       "mainClass": "leetcode.BitManipulation.hamminWeight",
