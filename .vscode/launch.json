@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "hamminWeight",
+      "request": "launch",
+      "mainClass": "leetcode.BitManipulation.hamminWeight",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "reverseBits",
+      "request": "launch",
+      "mainClass": "leetcode.BitManipulation.reverseBits",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "convertToNumber",
       "request": "launch",
       "mainClass": "leetcode.Strings.convertToNumber",
