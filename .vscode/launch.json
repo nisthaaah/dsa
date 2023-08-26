@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "containsDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.containsDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "reverseLL",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.reverseLL",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "isomorphicStrings",
       "request": "launch",
       "mainClass": "leetcode.Strings.isomorphicStrings",

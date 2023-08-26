@@ -29,6 +29,6 @@ public class isomorphicStrings {
         String s = "egg";
         String t = "add";
 
-        System.out.println("The strings " +s+ " and " +t+ " are isomorphic?\n" +new isomorphicStrings().isIsomorphic(s, t) );
+        System.out.println("The strings " +s+ " and " +t+ " are isomorphic?\n" +new isomorphicStrings().isIsomorphic(s, t));
     } 
 }

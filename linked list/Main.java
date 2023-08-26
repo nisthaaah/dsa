@@ -14,7 +14,7 @@ public class Main {
         //ll.removeFirst();
         //ll.insert(1, 0);
         //ll.remove(2);
-        //ll.reverse();
+        ll.reverse();
         
         
 
@@ -25,7 +25,7 @@ public class Main {
         //System.out.println(ll.removeLast().value);
         //System.out.println(ll.removeLast());
         //ll.removeLast();
-        //ll.printList();
+        ll.printList();
         System.out.println("The value at the index: ");
         System.out.println(ll.get(1).value);
         
