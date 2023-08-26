@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "countNodes",
+      "request": "launch",
+      "mainClass": "leetcode.BST.countNodes",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "containsDuplicate",
+      "request": "launch",
+      "mainClass": "leetcode.HashMap.containsDuplicate",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "containsDuplicates",
       "request": "launch",
       "mainClass": "leetcode.HashSet.containsDuplicates",
