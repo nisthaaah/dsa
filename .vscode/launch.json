@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "usingStacks",
+      "request": "launch",
+      "mainClass": "leetcode.Queue.usingStacks",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "usingQueue",
       "request": "launch",
       "mainClass": "leetcode.Stack.usingQueue",

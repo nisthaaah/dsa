@@ -51,7 +51,5 @@ public class usingQueue {
         System.out.println("Pop: " + stack.pop()); 
         System.out.println("Is empty? " + stack.isEmpty());
 
-    }
-
-    
+    }  
 }
