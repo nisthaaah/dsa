@@ -7,23 +7,23 @@ public class usingStacks {
 
     public void push(int x){
         if(s1.isEmpty()){
-            s1.push(x);
+            s1.push(x); // <1> s1
             return;
-        }
+        }               
 
         while(!s1.isEmpty()){
-            s2.push(s1.pop());
+            s2.push(s1.pop()); // <> s1, <1> s2 || <> s1, <1, 2> s2
         }
 
-        s1.push(x);
+        s1.push(x); // <2> s1, <1> s2 || <3> s1, <1 , 2> s2
 
         while(!s2.isEmpty()){
-            s1.push(s2.pop());
+            s1.push(s2.pop()); // <2, 1> s1, <> s2 || <3, 2, 1> s1, <> s2
         }
     }
 
     public int pop(){
-        return s1.pop();
+        return s1.pop(); // 1
     }
 
     public int peek(){
@@ -48,6 +48,5 @@ public class usingStacks {
 
         System.out.println("Pop: " + queue.pop()); 
         System.out.println("Is empty? " + queue.isEmpty());    
-
     }   
 }
