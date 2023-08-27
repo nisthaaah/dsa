@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "usingQueue",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.usingQueue",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "countNodes",
       "request": "launch",
       "mainClass": "leetcode.BST.countNodes",
