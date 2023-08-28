@@ -1,7 +1,7 @@
-package oops;
+package oops.Polymorphism;
 
-class overloading{
 
+public class overloading {
     String name;
     int age;
 
@@ -10,11 +10,9 @@ class overloading{
     }
 
     public void printInfo(String name, int age){ //method overloading(compile time)
-        System.out.println(name + age);
+        System.out.println(name + " " + age);
     }
-}
 
-class Polymorphism{
     public static void main(String[] args){
         overloading o1 = new overloading(); 
         o1.name = "nistha";

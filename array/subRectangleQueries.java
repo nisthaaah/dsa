@@ -6,9 +6,9 @@ class subRectangleQueries{
     }
 
     public void update(int row1, int col1, int row2, int col2, int value){ //(0, 0, 3, 2, 8)
-        for(int i = row1; i <= row2; i++){ 
-            for(int j = col1; j <= col2; j++){
-                result[i][j] = value;
+        for(int i = row1; i <= row2; i++){ //(0 <= 3)
+            for(int j = col1; j <= col2; j++){ //(0 <= 2)
+                result[i][j] = value; // 8
             }
         }
     }
@@ -31,7 +31,7 @@ class subRectangleQueries{
         System.out.println("Initial Matrix: ");
         printMatrix(matrix);
 
-        s.update(0, 0, 3, 2, 8);
+        s.update(3, 0, 3, 2, 7);
         int[][] updatedMatrix = s.result;
 
         System.out.println("\nUpdated Matrix:");

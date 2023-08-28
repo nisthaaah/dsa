@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subRectangleQueries",
+      "request": "launch",
+      "mainClass": "subRectangleQueries",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "minPartition",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.minPartition",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "gcdLL",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.gcdLL",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "overriding",
+      "request": "launch",
+      "mainClass": "oops.Polymorphism.overriding",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "overloading",
+      "request": "launch",
+      "mainClass": "oops.Polymorphism.overloading",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Encapsulation",
       "request": "launch",
       "mainClass": "oops.Encapsulation.Encapsulation",
