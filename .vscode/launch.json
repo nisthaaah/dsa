@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Inheritance",
+      "request": "launch",
+      "mainClass": "oops.Inheritance",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Polymorphism",
+      "request": "launch",
+      "mainClass": "oops.Polymorphism",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Student",
       "request": "launch",
       "mainClass": "OOPS.Student",
