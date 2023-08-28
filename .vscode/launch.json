@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "oops.Encapsulation.Encapsulation",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "oops.Encapsulation",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Interface",
+      "request": "launch",
+      "mainClass": "oops.Abstraction.Interface",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Abstraction",
+      "request": "launch",
+      "mainClass": "oops.Abstraction",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Bank",
+      "request": "launch",
+      "mainClass": "oops.Bank",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Inheritance",
       "request": "launch",
       "mainClass": "oops.Inheritance",
