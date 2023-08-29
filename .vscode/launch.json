@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "minpenalty",
+      "request": "launch",
+      "mainClass": "leetcode.Random.minpenalty",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "addTwoNumbers",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.addTwoNumbers",
