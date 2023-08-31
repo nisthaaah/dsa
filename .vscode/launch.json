@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "zigZagConversion",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.zigZagConversion",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "longestPalindrome",
       "request": "launch",
       "mainClass": "leetcode.Strings.longestPalindrome",
