@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bulbSwitcher",
+      "request": "launch",
+      "mainClass": "leetcode.Random.bulbSwitcher",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "addDigits",
       "request": "launch",
       "mainClass": "leetcode.Random.addDigits",
