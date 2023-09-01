@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "addDigits",
+      "request": "launch",
+      "mainClass": "leetcode.Random.addDigits",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "reverseInteger",
+      "request": "launch",
+      "mainClass": "leetcode.Random.reverseInteger",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "countingBits",
+      "request": "launch",
+      "mainClass": "leetcode.BitManipulation.countingBits",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "zigZagConversion",
       "request": "launch",
       "mainClass": "leetcode.Strings.zigZagConversion",
