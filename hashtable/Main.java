@@ -7,7 +7,7 @@ public class Main {
         h.set("a" , 7);
         h.set("b" , 8);
         h.set("b", 5);
-        //System.out.println(h.get("a"));
+        //System.out.println(h.get("a")); 
         h.printTable();
         System.out.println(h.keys());
     }

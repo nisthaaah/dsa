@@ -41,7 +41,7 @@ public class hashTable {
         } 
         else {
             Node temp = dataMap[index];
-            while (temp.next != null) {
+            while (temp.next != null) { 
             temp = temp.next;
         }
           temp.next = newNode;
