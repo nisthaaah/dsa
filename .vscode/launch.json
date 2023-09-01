@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseString",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.reverseString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "bulbSwitcher",
       "request": "launch",
       "mainClass": "leetcode.Random.bulbSwitcher",
