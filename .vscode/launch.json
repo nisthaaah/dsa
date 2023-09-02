@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "intToRoman",
+      "request": "launch",
+      "mainClass": "leetcode.Random.intToRoman",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "letterCombinationofPhone",
       "request": "launch",
       "mainClass": "leetcode.Random.letterCombinationofPhone",
