@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "generateParentheses",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.generateParentheses",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "containerWithMostWater",
       "request": "launch",
       "mainClass": "leetcode.Random.containerWithMostWater",
