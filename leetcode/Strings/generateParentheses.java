@@ -9,12 +9,12 @@ public class generateParentheses {
     }
 
     public void backTrack(List<String> res, int open_count, int close_count, String s, int n){
-        if(s.length() == n * 2){
+        if(s.length() == n * 2){ //6
             res.add(s);
             return;
         }
         if(open_count < n){
-            backTrack(res, open_count + 1, close_count, s + "(", n);
+            backTrack(res, open_count + 1, close_count, s + "(", n); //[ (, ]
         }
         if(close_count < open_count){
             backTrack(res, open_count, close_count + 1, s + ")", n);
@@ -25,3 +25,9 @@ public class generateParentheses {
         System.out.println("The generated parentheses for " +n+ " are: " +new generateParentheses().generateParentheses(n));
     }   
 }
+//                              (
+//                   ((                    ()
+//               (((    (()              ()(
+//             ((()  (()(  (())        ()(( ()()
+//           ((())  (()()   (())(     ()(()   ()()(
+//          ((())) (()())    (())()  ()(())    ()()()

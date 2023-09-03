@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "countAndSay",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.countAndSay",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "generateParentheses",
       "request": "launch",
       "mainClass": "leetcode.Strings.generateParentheses",
