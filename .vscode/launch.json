@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "wordPattern",
+      "request": "launch",
+      "mainClass": "leetcode.HashMap.wordPattern",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "missingNumber",
       "request": "launch",
       "mainClass": "leetcode.HashMap.missingNumber",
