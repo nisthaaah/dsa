@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "missingNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Random.missingNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "countAndSay",
       "request": "launch",
       "mainClass": "leetcode.Strings.countAndSay",
