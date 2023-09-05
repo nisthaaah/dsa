@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "moveZeros",
+      "request": "launch",
+      "mainClass": "leetcode.Array.moveZeros",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "wordPattern",
       "request": "launch",
       "mainClass": "leetcode.HashMap.wordPattern",

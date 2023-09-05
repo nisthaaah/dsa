@@ -16,10 +16,16 @@ public class moveZeros {
     }
     public static void main(String[] args){
         int[] nums = {0, 1, 0, 3, 4};
-        new moveZeros().moveZeros(nums);
-        System.out.print("Modified array: \n");
+        System.out.print("Original array: \n");
         for(int num : nums){
-            System.out.println(num + " ");
+            System.out.print(num + " ");
+        }
+
+        new moveZeros().moveZeros(nums);
+
+        System.out.print("\n\nModified array: \n");
+        for(int num : nums){
+            System.out.print(num + " ");
         }
     }
 }
