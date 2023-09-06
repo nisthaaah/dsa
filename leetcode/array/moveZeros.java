@@ -15,7 +15,7 @@ public class moveZeros {
         }
     }
     public static void main(String[] args){
-        int[] nums = {0, 1, 0, 3, 4};
+        int[] nums = {0, 1, 0, 0, 4};
         System.out.print("Original array: \n");
         for(int num : nums){
             System.out.print(num + " ");
