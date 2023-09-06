@@ -5,7 +5,7 @@ public class moveZeros {
         int i = 0;
         for(int num : nums){ //[0, 1, 0, 3, 4]
             if(num != 0){ 
-                nums[i] = num; //nums[0] = 1 [1, 1, 0, 3, 
+                nums[i] = num; //nums[0] = 1 [1, 1, 0, 3, 4]
                 i++; 
             }
         }
