@@ -28,10 +28,10 @@ public class reverseKGroup {
         int count = 0;
         while(curr != null && count < k){
             forward = curr.next; //prev 1(curr)->2(forward)->3->4->5 || 3->4->5
-            curr.next = prev; //1<-2 3->4->5
-            prev = curr; 
-            curr = forward; //1(prev)<-2(curr) 3->4->5
-            count++; //1
+            curr.next = prev; //null<-1 2->3->4->5
+            prev = curr; //null<-1(prev) 2(curr)->3(forward)->4->5
+            curr = forward; //numm<-1<-2(prev) 3(curr)->4->5
+            count++; //2
         }
         if(forward != null){
             head.next = reverseKGroup(forward, k, length - k); //3->4->5

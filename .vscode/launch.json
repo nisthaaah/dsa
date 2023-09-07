@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseKGroup",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.reverseKGroup",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "reverseBetween",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.reverseBetween",
