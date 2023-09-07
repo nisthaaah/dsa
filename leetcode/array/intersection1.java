@@ -1,7 +1,7 @@
 package leetcode.Array;
 import java.util.*;
 
-public class intersection {
+public class intersection1 {
     public int[] intersection(int[] arr1, int[] arr2){
         Set<Integer> s1 = new HashSet<>();
         Set<Integer> s2 = new HashSet<>();
@@ -29,7 +29,7 @@ public class intersection {
         int[] arr1 = {4,9,5};
         int[] arr2 = {9,4,9,8,4};
 
-        int intersection[] = new intersection().intersection(arr1, arr2);
+        int intersection[] = new intersection1().intersection(arr1, arr2);
         for(int n : intersection){
             System.out.println(n);
         }
