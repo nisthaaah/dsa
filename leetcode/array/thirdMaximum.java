@@ -10,9 +10,9 @@ public class thirdMaximum {
             if(num == first || num == second || num == third) continue;
 
         if(num > first){ //1
-            third = second;  //                    || third = 1  || third = 2                      
-            second = first; //       || second = 1 || second = 2 || second = 3
-            first = num; //first = 1 || first = 2  || first = 3  || first = 4
+            third = second;  //                      || third = 1  || third = 2                      
+            second = first; //         || second = 1 || second = 2 || second = 3
+            first = num;   //first = 1 || first = 2  || first = 3  || first = 4
         }
         else if(num > second){
             third = second;
