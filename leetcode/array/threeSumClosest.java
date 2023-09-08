@@ -1,7 +1,5 @@
 package leetcode.Array;
-
 import java.util.Arrays;
-import java.util.List;
 
 public class threeSumClosest {
     public int threeSumClosest(int[] arr, int target){
