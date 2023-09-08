@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "removeNth",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.removeNth",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "swapInPairs",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.swapInPairs",
