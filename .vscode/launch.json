@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "threeSumClosest",
+      "request": "launch",
+      "mainClass": "leetcode.Array.threeSumClosest",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "threeSum",
+      "request": "launch",
+      "mainClass": "leetcode.Array.threeSum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "removeNth",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.removeNth",
