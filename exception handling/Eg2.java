@@ -27,6 +27,6 @@ public class Eg2 {
             System.out.println("I am in finally block");
         }
 
-        System.out.println("weeee");
+        System.out.println("weeEEee");
     }
 }
