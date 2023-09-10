@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maxConsecutiveOnes",
+      "request": "launch",
+      "mainClass": "leetcode.Array.maxConsecutiveOnes",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "islandPerimeter",
       "request": "launch",
       "mainClass": "leetcode.Array.islandPerimeter",
