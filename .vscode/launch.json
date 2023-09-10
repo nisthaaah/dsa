@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "islandPerimeter",
+      "request": "launch",
+      "mainClass": "leetcode.Array.islandPerimeter",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "assignCookies",
       "request": "launch",
       "mainClass": "leetcode.Array.assignCookies",
