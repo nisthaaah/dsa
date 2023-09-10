@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "assignCookies",
+      "request": "launch",
+      "mainClass": "leetcode.Array.assignCookies",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "findDisappearedNumber",
       "request": "launch",
       "mainClass": "leetcode.HashSet.findDisappearedNumber",

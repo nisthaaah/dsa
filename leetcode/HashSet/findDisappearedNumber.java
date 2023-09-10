@@ -9,7 +9,7 @@ public class findDisappearedNumber {
         for(int n : nums){
             numSet.add(n); //[1,3,4,6,7]
         }
-        for(int i = 1; i < nums.length; i++){ //6
+        for(int i = 1; i <= nums.length; i++){ //6
             if(!numSet.contains(i)){ 
                 res.add(i); //[2, 5]
             }
