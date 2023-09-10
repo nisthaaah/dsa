@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findDisappearedNumber",
+      "request": "launch",
+      "mainClass": "leetcode.HashSet.findDisappearedNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Eg2",
       "request": "launch",
       "mainClass": "Eg2",
