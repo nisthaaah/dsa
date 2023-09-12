@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "palindrome",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.palindrome",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "maxConsecutiveOnes",
       "request": "launch",
       "mainClass": "leetcode.Array.maxConsecutiveOnes",
