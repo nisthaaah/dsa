@@ -17,7 +17,7 @@ public class palindrome {
         Node slow = head;
         Node fast = head;
 
-        while(fast != null && fast.next != null){ // 1-> 2 -> 2 -> 1
+        while(fast != null && fast.next != null){ //1-> 2 -> 2 -> 1
             slow= slow.next;
             fast = fast.next.next; 
         }
