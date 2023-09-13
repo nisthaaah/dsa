@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "binaryToInt",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.binaryToInt",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "palindrome",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.palindrome",
