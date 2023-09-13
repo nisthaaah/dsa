@@ -10,7 +10,7 @@ public class middleNode{
             slow=slow.next; //2, 3, 4
             fast=fast.next.next; //3, 5
         }
-        return slow; //4->5->6
+        return slow; //4
     }
 
     //methods
