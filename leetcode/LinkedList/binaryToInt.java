@@ -15,10 +15,10 @@ public class binaryToInt {
     public int binaryToInt(Node head){
         int sum = 0;
         while(head != null){
-            sum = (sum << 1) + head.value; //
+            sum = (sum << 1) + head.value; // 0 * 2 + 1 => 1 || 1 * 2 + 0 => 2 || 2 * 2 + 1 => 5
             head = head.next;
         }
-        return sum;
+        return sum; //5
     }
     public static void main(String[] args){
         Node head = new Node(1);
