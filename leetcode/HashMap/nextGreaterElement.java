@@ -7,7 +7,7 @@ public class nextGreaterElement {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int num : nums2){
-            while(!stack.isEmpty() && num > stack.peek()){ //nums 2 = [1,3,4,2]
+            while(!stack.isEmpty() && num > stack.peek()){ //nums2 = [1,3,4,2]
                 map.put(stack.pop(), num); //(1, 3), (3, 4)
             }
             stack.push(num); //3, 4, 2
