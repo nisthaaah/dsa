@@ -16,7 +16,7 @@ class oneD{
     //output
     for(int i=0; i<size; i++){
         if(number[i]==x){
-    System.out.println("x found at" +i);
+    System.out.println("x found at " +i);
     }
     
     else{
