@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "teemoAttack",
+      "request": "launch",
+      "mainClass": "leetcode.Array.teemoAttack",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "binaryToInt",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.binaryToInt",
