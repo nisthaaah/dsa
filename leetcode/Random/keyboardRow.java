@@ -7,12 +7,12 @@ public class keyboardRow {
         String two = "asdfghjklASDFGHJKL";
         String three = "zxcvbnmZXCVBNM";
 
-        Set<Character> row1 = new HashSet<>();
-        Set<Character> row2 = new HashSet<>();
-        Set<Character> row3 = new HashSet<>();
+        Set<Character> row1 = new HashSet<>(); //qwertyuiopQWERTYUIOP
+        Set<Character> row2 = new HashSet<>(); //asdfghjklASDFGHJKL
+        Set<Character> row3 = new HashSet<>(); //zxcvbnmZXCVBNM
 
         for(int i = 0; i < one.length(); i++){
-            row1.add(one.charAt(i));
+            row1.add(one.charAt(i)); 
         }
         for(int i = 0; i < two.length(); i++){
             row2.add(two.charAt(i));
@@ -23,25 +23,25 @@ public class keyboardRow {
 
         List<String> res = new ArrayList<>();
 
-        for(int i = 0; i < words.length; i++){
-            String word = words[i];
+        for(int i = 0; i < words.length; i++){ //"Hello","Alaska","Dad","Peace"
+            String word = words[i]; //"Hello" , "Alaska"
             int r1 = 0;
             int r2 = 0;
             int r3 = 0;
 
             for(int j = 0; j < word.length(); j++){
                 if(row1.contains(word.charAt(j))){
-                    r1++;
+                    r1++; //1
                 }
                 if(row2.contains(word.charAt(j))){
-                    r2++;
+                    r2++; //6
                 }
                 if(row3.contains(word.charAt(j))){
                     r3++;
                 }
 
-                if(r1 == word.length() || r2 == word.length() || r3 == word.length()){
-                    res.add(word);
+                if(r1 == word.length() || r2 == word.length() || r3 == word.length()){ 
+                    res.add(word); //Alaska
                 }
             }
         }
@@ -55,7 +55,7 @@ public class keyboardRow {
     public static void main(String[] args){
         String[] words = {"Hello","Alaska","Dad","Peace"};
         String[] res = new keyboardRow().findWords(words);
-        
+
         for(String word : res){
             System.out.println(word);
         }

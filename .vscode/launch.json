@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mt2",
+      "request": "launch",
+      "mainClass": "multiThreading.mt2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "mt",
+      "request": "launch",
+      "mainClass": "multiThreading.mt",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "keyboardRow",
       "request": "launch",
       "mainClass": "leetcode.Random.keyboardRow",
