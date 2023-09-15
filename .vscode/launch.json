@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "keyboardRow",
+      "request": "launch",
+      "mainClass": "leetcode.Random.keyboardRow",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "maxmin",
       "request": "launch",
       "mainClass": "maxmin",
