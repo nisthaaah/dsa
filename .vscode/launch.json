@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseVowels",
+      "request": "launch",
+      "mainClass": "strings.reverseVowels",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "reshapeMatrix",
       "request": "launch",
       "mainClass": "reshapeMatrix",

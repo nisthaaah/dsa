@@ -1,16 +1,16 @@
 public class reshapeMatrix {
     public int[][] reshapeMatrix(int[][] mat, int r, int c){
-        if((mat.length * mat[0].length) != (r * c)) return mat; //(2*2) = (1*4)
+        if((mat.length * mat[0].length) != (r * c)) return mat; //(3*4) = (2*6)
 
         int[][] res = new int[r][c];
         int res_r = 0;
         int res_c = 0;
         for(int i = 0; i < mat.length; i++){
             for(int j = 0; j < mat[0].length; j++){
-                res[res_r][res_c] = mat[i][j]; 
-                res_c++;
+                res[res_r][res_c] = mat[i][j]; //1,2,3,4,5,6
+                res_c++;                      //7,8,9,10,11,12
 
-                if(res_c == c){
+                if(res_c == c){ //6 
                     res_r++;
                     res_c = 0;
                 }
