@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "cloneGraphSol",
+      "request": "launch",
+      "mainClass": "leetcode.Graph.cloneGraphSol",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "cloneGraph",
+      "request": "launch",
+      "mainClass": "leetcode.Graph.cloneGraph",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mt3",
       "request": "launch",
       "mainClass": "multiThreading.mt3",
