@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "postOrderTraversal",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.postOrderTraversal",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "preOrderTraversal",
       "request": "launch",
       "mainClass": "leetcode.Trees.preOrderTraversal",
