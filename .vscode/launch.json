@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mt4",
+      "request": "launch",
+      "mainClass": "multiThreading.mt4",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "postOrderTraversal",
       "request": "launch",
       "mainClass": "leetcode.Trees.postOrderTraversal",
