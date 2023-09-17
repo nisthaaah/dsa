@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "preOrderTraversal",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.preOrderTraversal",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "invertBinaryTreee",
       "request": "launch",
       "mainClass": "leetcode.Trees.invertBinaryTreee",
