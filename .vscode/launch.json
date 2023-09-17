@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "invertBinaryTreee",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.invertBinaryTreee",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "invertBinaryTree",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.invertBinaryTree",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "cloneGraphSol",
       "request": "launch",
       "mainClass": "leetcode.Graph.cloneGraphSol",
