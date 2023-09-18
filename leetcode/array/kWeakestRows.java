@@ -10,14 +10,14 @@ public class kWeakestRows {
         for(int i = 0; i < mat.length; i++){
             int soldiers = 0;
             for(int j = 0; j < mat[0].length; j++){
-                if(mat[i][j] == 1) soldiers++;
+                if(mat[i][j] == 1) soldiers++; //row 0 => 2 || row 1 => 4 || row 2 => 1 || row 3 => 2 || row 4 => 5
                 else break;
             }
-            count[i] = soldiers*1000 + i;
+            count[i] = soldiers*1000 + i; //2000, 4001, 1002, 2003, 5004
         }
-        Arrays.sort(count);
+        Arrays.sort(count); //1002, 2000, 2003, 4001, 5004
         for(int i = 0; i < k; i++){
-            res[i] = count[i] % 1000;
+            res[i] = count[i] % 1000; //[2, 0, 3] 
         }
         return res;  
     }
@@ -34,7 +34,7 @@ public class kWeakestRows {
 
         int[] res = new kWeakestRows().kWeakest(mat, k);
 
-        System.out.println();
+        System.out.println("The " +k+ " weakest rows are: ");
         for(int row : res){
             System.out.println(row);
         }
