@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LicenceDemo",
+      "request": "launch",
+      "mainClass": "multiThreading.LicenceDemo",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mt7",
       "request": "launch",
       "mainClass": "multiThreading.mt7",
