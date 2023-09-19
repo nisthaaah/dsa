@@ -20,5 +20,8 @@ public class mt5 extends Thread{
 
        mt5 m2 = new mt5();
        m2.start();
+
+       mt5 m3 = new mt5();
+       m3.start();
     }
 }
