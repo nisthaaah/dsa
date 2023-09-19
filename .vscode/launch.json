@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mt5",
+      "request": "launch",
+      "mainClass": "multiThreading.mt5",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "findDuplicate",
       "request": "launch",
       "mainClass": "leetcode.TwoPointers.findDuplicate",
