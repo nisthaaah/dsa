@@ -1,6 +1,6 @@
 package multiThreading;
 
-public class mt5 extends Thread{
+class sleepTest extends Thread{
     public void run(){
         for(int i = 1; i <= 5; i++)
         {
@@ -13,12 +13,14 @@ public class mt5 extends Thread{
         System.out.println(i+ ": " +Thread.currentThread().getName());
         }
     }
+}
 
-    public static void main(String[] args) {
-       mt5 m1 = new mt5();
-       m1.start();
+public class mt5 {
+    public static void main(String[] args){
+        sleepTest st1 = new sleepTest();
+        st1.start();
 
-       mt5 m2 = new mt5();
-       m2.start();
+        sleepTest st2 = new sleepTest();
+        st2.start();
     }
 }

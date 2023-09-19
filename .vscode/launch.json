@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mt7",
+      "request": "launch",
+      "mainClass": "multiThreading.mt7",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "sleepTest",
+      "request": "launch",
+      "mainClass": "multiThreading.sleepTest",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mt6",
       "request": "launch",
       "mainClass": "multiThreading.mt6",
