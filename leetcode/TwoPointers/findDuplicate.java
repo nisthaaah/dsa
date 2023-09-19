@@ -1,4 +1,4 @@
-package leetcode.TwoPointers;
+package leetcode.twoPointers;
 
 public class findDuplicate {
     public int findDuplicate(int[] nums){
