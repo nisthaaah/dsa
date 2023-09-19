@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findDuplicate",
+      "request": "launch",
+      "mainClass": "leetcode.TwoPointers.findDuplicate",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "kWeakestRows",
       "request": "launch",
       "mainClass": "leetcode.Array.kWeakestRows",
