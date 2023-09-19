@@ -10,7 +10,7 @@ public class mt5 extends Thread{
         catch(InterruptedException e){
             System.out.println(e);
         }
-        System.out.println(i+ " : " +Thread.currentThread().getName());
+        System.out.println(i+ ": " +Thread.currentThread().getName());
         }
     }
 
@@ -20,8 +20,5 @@ public class mt5 extends Thread{
 
        mt5 m2 = new mt5();
        m2.start();
-
-       mt5 m3 = new mt5();
-       m3.start();
     }
 }
