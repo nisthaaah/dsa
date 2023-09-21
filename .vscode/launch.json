@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BankAccount",
+      "request": "launch",
+      "mainClass": "multiThreading.syncronization.BankAccount",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "MovieBookApp",
+      "request": "launch",
+      "mainClass": "multiThreading.syncronization.MovieBookApp",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "movieBookApp",
       "request": "launch",
       "mainClass": "multiThreading.syncronization.movieBookApp",
