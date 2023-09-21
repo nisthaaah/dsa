@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mt9",
+      "request": "launch",
+      "mainClass": "multiThreading.mt9",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "mt8",
+      "request": "launch",
+      "mainClass": "multiThreading.mt8",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "LicenceDemo",
       "request": "launch",
       "mainClass": "multiThreading.LicenceDemo",
