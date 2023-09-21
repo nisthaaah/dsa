@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "uglyNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Random.uglyNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "BankAccount",
       "request": "launch",
       "mainClass": "multiThreading.syncronization.BankAccount",

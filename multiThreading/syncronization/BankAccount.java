@@ -24,7 +24,7 @@ class Bank {
     }
 }
 
-public class BankAccount extends Thread{
+public class BankAccount extends Thread{ //thread
     static Bank ba;
     double amount;
     public void run(){
