@@ -49,8 +49,8 @@ public class RoomBookingApp {
         myThread1 t2 = new myThread1(r1, 5);
         t2.start();
         
-        //------------------------
-        
+        //---------------------------------------
+
         BookRoom r2 = new BookRoom();
         myThread2 t3 = new myThread2(r2, 45);
         t3.start();

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "totalEarning",
+      "request": "launch",
+      "mainClass": "multiThreading.syncronization.totalEarning",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "RoomBookingApp",
       "request": "launch",
       "mainClass": "multiThreading.syncronization.RoomBookingApp",
