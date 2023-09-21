@@ -7,7 +7,7 @@ public class uglyNumber {
         if(n == 1) return true;
 
         while(n >= 0){
-            if(n == 1) return true;
+            if(n == 1) return true; 
             if(n % 2 == 0) n /= 2;
             else if(n % 3 == 0) n /= 3;
             else if(n % 5 == 0) n /= 5;
@@ -17,7 +17,7 @@ public class uglyNumber {
     }
 
     public static void main(String[] args) {
-        int[] numbersToCheck = {6, 8, 14, 25, 30};
+        int[] numbersToCheck = {6, 8, 14, 25, 30, 55};
 
         for (int n : numbersToCheck) {
             boolean res = isUgly(n);
