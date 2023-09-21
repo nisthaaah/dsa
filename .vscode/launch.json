@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "movieBookApp",
+      "request": "launch",
+      "mainClass": "multiThreading.syncronization.movieBookApp",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "movieBookApp",
+      "request": "launch",
+      "mainClass": "multiThreading.movieBookApp",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "mt9",
       "request": "launch",
       "mainClass": "multiThreading.mt9",
