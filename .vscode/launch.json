@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EnumExample",
+      "request": "launch",
+      "mainClass": "EnumExample",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "AbstractMethod",
       "request": "launch",
       "mainClass": "oops.Abstraction.AbstractMethod",
