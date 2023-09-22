@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AbstractMethod",
+      "request": "launch",
+      "mainClass": "oops.Abstraction.AbstractMethod",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subSequence",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.subSequence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "totalEarning",
       "request": "launch",
       "mainClass": "multiThreading.syncronization.totalEarning",

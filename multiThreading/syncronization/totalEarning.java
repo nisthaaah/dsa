@@ -8,9 +8,10 @@ class Earning extends Thread{
         total += 100;     
     }
     this.notify();
+        }
+    }
 }
-}
-}
+
 public class totalEarning {
     public static void main(String[] args) throws Exception{
         Earning e = new Earning();
