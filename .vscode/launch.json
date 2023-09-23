@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ransom",
+      "request": "launch",
+      "mainClass": "leetcode.Random.Ransom",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "validAnagram",
       "request": "launch",
       "mainClass": "leetcode.Strings.validAnagram",
