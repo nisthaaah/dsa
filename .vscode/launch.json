@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maxProductSubarray",
+      "request": "launch",
+      "mainClass": "leetcode.Array.maxProductSubarray",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "countInversions",
       "request": "launch",
       "mainClass": "leetcode.Array.countInversions",
