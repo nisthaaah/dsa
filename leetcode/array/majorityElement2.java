@@ -5,22 +5,22 @@ public class majorityElement2 {
     public List<Integer> majorityElement(int[] nums){
         List<Integer> res = new ArrayList<>();
         int count1 = 0; int count2 = 0;
-        int element1 = 0; int element2 = 0;
+        int element1 = Integer.MIN_VALUE; int element2 = Integer.MIN_VALUE;
 
-        for(int num : nums){ //[1, 2, 2]
-            if(count1 == 0){
+        for(int num : nums){ //[1, 1, 2]
+            if(num == element1){
+                count1++; //2
+            }
+            else if(num == element2){
+                count2++; 
+            }
+            else if(count1 == 0){
                 element1 = num; //1
                 count1 = 1; //1
             }
             else if(count2 == 0){
                 element2 = num; //2
                 count2 = 1; //1
-            }
-            else if(num == element1){
-                count1++;
-            }
-            else if(num == element2){
-                count2++; //2
             }
             else{
                 count1--; 
@@ -33,10 +33,10 @@ public class majorityElement2 {
 
         for(int num : nums){
             if(num == element1){
-                count1++; //1
+                count1++; //2
             }
             if(num == element2){
-                count2++; //2
+                count2++; //1
             }
         }
 
@@ -44,13 +44,13 @@ public class majorityElement2 {
             res.add(element1);
         }
         if(count2 > nums.length / 3){
-            res.add(element2); //2
+            res.add(element2); //1
         }
-        return res; //[2]
+        return res; //[1]
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,2};
+        int[] nums = {1,1,2};
 
         System.out.println("The majority element is: " +new majorityElement2().majorityElement(nums));
     }
