@@ -3,7 +3,7 @@ package leetcode.Array;
 public class maxProductSubarray {
     public int maxProduct(int[] nums){
         int product = 1;
-        int maxProduct = Integer.MIN_VALUE;
+        int maxProduct = 0;
 
         for(int i = 0; i < nums.length; i++){ //2,3,-2,4
             product *= nums[i]; //product = 2, 6, -12, -48
