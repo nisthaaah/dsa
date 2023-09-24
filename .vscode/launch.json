@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "majorityElement2",
+      "request": "launch",
+      "mainClass": "leetcode.Array.majorityElement2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "maxSumSubarray",
+      "request": "launch",
+      "mainClass": "leetcode.Array.maxSumSubarray",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Ransom",
       "request": "launch",
       "mainClass": "leetcode.Random.Ransom",
