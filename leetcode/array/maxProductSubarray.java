@@ -22,6 +22,6 @@ public class maxProductSubarray {
 
     public static void main(String[] args) {
         int[] nums = {2,3,-2,4};
-        System.out.println("The maximum product: " +new maxProductSubarray().maxProduct(nums));
+        System.out.println("The maximum product is " +new maxProductSubarray().maxProduct(nums));
     }
 }
