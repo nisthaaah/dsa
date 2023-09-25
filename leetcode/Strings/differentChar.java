@@ -20,8 +20,8 @@ public class differentChar {
 
     }
     public static void main(String[] args) {
-        String s = "abcdel";
-        String t = "abcde";
+        String s = "a";
+        String t = "aa";
 
         System.out.println("The different character: " +new differentChar().findDifference(s, t));
     }
