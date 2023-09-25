@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "differentChar",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.differentChar",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "maxProductSubarray",
       "request": "launch",
       "mainClass": "leetcode.Array.maxProductSubarray",
