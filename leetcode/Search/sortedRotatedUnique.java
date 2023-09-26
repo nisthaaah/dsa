@@ -1,7 +1,7 @@
 package leetcode.Search;
 
-public class sortedRotated1 {
-    public int search(int[] nums, int target){
+public class sortedRotatedUnique {
+    public int searchUniq(int[] nums, int target){
         int low = 0;
         int high = nums.length - 1; //5
 
@@ -33,6 +33,6 @@ public class sortedRotated1 {
         int[] nums = {6,7,0,1,2,3};
         int target = 7;
 
-        System.out.println("The element is " +new sortedRotated1().search(nums, target));
+        System.out.println("The element is at position: " +new sortedRotatedUnique().searchUniq(nums, target));
     }
 }

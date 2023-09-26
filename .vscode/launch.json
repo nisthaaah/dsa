@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sortedRotatedUnique",
+      "request": "launch",
+      "mainClass": "leetcode.Search.sortedRotatedUnique",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "sortedRotatedDuplicates",
+      "request": "launch",
+      "mainClass": "leetcode.Search.sortedRotatedDuplicates",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sortedRotated1",
       "request": "launch",
       "mainClass": "leetcode.Search.sortedRotated1",
