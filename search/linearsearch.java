@@ -1,31 +1,17 @@
 import java.util.Scanner;
 
 public class linearsearch {
-   public static void main(String args[]){
-    Scanner sc= new Scanner(System.in);
-    System.out.println("Enter the number of rows and columns: ");
-    int r=sc.nextInt();
-    int c=sc.nextInt();
-
-    System.out.println("Enter the elements: ");
-    int[][] numbers = new int[r][c];
-    for(int i=0; i<r; i++){
-        for(int j=0; j<c; j++){
-            numbers[i][j]=sc.nextInt();
-
-        }}
-        System.out.println("Enter the number to be searched: ");
-        int x=sc.nextInt();
-
-        for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++){
-                if(x == numbers[i][j]){
-                    System.out.println("x found at:" + i + "," + j + "");
-                }
-                else{
-                    System.out.println("not found");
-                }
+    public int lSearch(int[] arr, int target){
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == target){
+                return i;
             }
         }
+        return -1;
     }
-   }
+    public static void main(String[] args) {
+        int[] arr = {1,3,4,5};
+        int target = 4;
+        System.out.println("The element is: " +new linearsearch().lSearch(arr, target));
+    } 
+}
