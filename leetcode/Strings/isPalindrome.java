@@ -2,7 +2,7 @@ package leetcode.Strings;
 
 public class isPalindrome {
     public boolean isPalindrome(String s){
-        s= s.toLowerCase();
+        s = s.toLowerCase();
         int start = 0;
         int end = s.length() - 1;
 
