@@ -4,7 +4,7 @@ class minPartition{
     public int minPartition(String n){
         int result = 0;
         for(char c : n.toCharArray()){
-            result = Math.max(result, c - '0'); // 3=> 1 + 1 + 1 & 2=> 1 + 1
+            result = Math.max(result, c - '0'); // 3 => 1 + 1 + 1 & 2 => 1 + 1
         }
         return result;
     }
