@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "peakElement",
+      "request": "launch",
+      "mainClass": "leetcode.Search.peakElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "minimumElementSortedRotated",
       "request": "launch",
       "mainClass": "leetcode.Search.minimumElementSortedRotated",
