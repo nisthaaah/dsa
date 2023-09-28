@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "maxMin",
+      "request": "launch",
+      "mainClass": "leetcode.Array.maxMin",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "removeDuplicateLetters",
       "request": "launch",
       "mainClass": "leetcode.Strings.removeDuplicateLetters",
