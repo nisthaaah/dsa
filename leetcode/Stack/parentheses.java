@@ -18,10 +18,10 @@ public class parentheses {
                 else return false;
             }
         }
-            return myStack.isEmpty();
+        return myStack.isEmpty();
     }
     public static void main(String[] args){
-        String s = "[]()";
+        String s = "[](){";
         System.out.println("The String is valid: "+isValid(s));
     }  
 }
