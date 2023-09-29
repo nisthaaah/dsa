@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "runLength",
+      "request": "launch",
+      "mainClass": "leetcode.Strings.runLength",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "addLength",
       "request": "launch",
       "mainClass": "leetcode.Strings.addLength",
