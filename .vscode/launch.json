@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nextGreaterElement",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.nextGreaterElement",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "nextGreaterElement2",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.nextGreaterElement2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "oneThreeTwoPattern",
       "request": "launch",
       "mainClass": "leetcode.Stack.oneThreeTwoPattern",
