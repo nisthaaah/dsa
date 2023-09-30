@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "oneThreeTwoPattern",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.oneThreeTwoPattern",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "dashInsert2",
       "request": "launch",
       "mainClass": "leetcode.Random.dashInsert2",
