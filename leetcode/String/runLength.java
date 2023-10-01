@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class runLength {
     public String runLen(String s){

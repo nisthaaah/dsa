@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class subSequence {
     public boolean isSequence(String s, String t){

@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class countAndSay {
     public String countAndSay(int n){

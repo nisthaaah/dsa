@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class differentChar {
     public char findDifference(String s, String t){

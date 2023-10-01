@@ -1,7 +1,7 @@
 package leetcode.Stack;
 import java.util.*;
 
-public class nextGreaterElement2 {
+public class nextGreaterElement2 { //circular array
     public int[] nextGreaterElement2(int[] nums){
         int n = nums.length;
         int[] res = new int[n];

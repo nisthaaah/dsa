@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class reverse {
     public static void main(String[] args){

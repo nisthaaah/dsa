@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 class minPartition{
     public int minPartition(String n){

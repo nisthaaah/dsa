@@ -1,4 +1,4 @@
-package leetcode.Strings;
+package leetcode.String;
 
 public class convertToNumber {
     public int titleNumber(String columnTitle){
