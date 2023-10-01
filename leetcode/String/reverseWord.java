@@ -29,7 +29,7 @@ public class reverseWord {
     }
 
     public static void main(String[] args) {
-        String s = "God Ding";
+        String s = "jkjk hhhd";
         System.out.println("The reversed String: " +new reverseWord().reverse(s));
     }  
 }
