@@ -62,4 +62,4 @@ public class hasLoop {
         System.out.println("Has Loop:");
         System.out.println(ll.hasLoop());
         }
-    }   
+    }
