@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "numIdenticalPairs",
+      "request": "launch",
+      "mainClass": "leetcode.Array.numIdenticalPairs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "longestSubString",
+      "request": "launch",
+      "mainClass": "leetcode.String.longestSubString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "winner0fGame",
       "request": "launch",
       "mainClass": "leetcode.String.winner0fGame",

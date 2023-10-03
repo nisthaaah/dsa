@@ -1,5 +1,6 @@
 package leetcode.String;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 public class longestSubString {
     public int longestSubString(String s){
@@ -18,22 +19,22 @@ public class longestSubString {
                     left++;
                 }
                 set.add(s.charAt(right));
-            }   
+            }
         }
         return max;
     }
 
         // for(int right = 0; right < s.length(); right++){
         //     while(!set.add(s.charAt(right))){ //checks duplicates characters
-        //         set.remove(s.charAt(left)); //if the string's right character is equals to the set's 
+        //         set.remove(s.charAt(left)); //if the string's right character is equals to the set's
         //         left++;
         //     }
-        //     max = Math.max(max, right - left +1); 
+        //     max = Math.max(max, right - left +1);
         // }
         // return max; }
 
     public static void main(String[] args){
         String s = "abcabcbb";
         System.out.println("The length of longest sub string is: " +new longestSubString().longestSubString(s));
-    }   
+    }
 }

@@ -20,7 +20,7 @@ public class winner0fGame {
     }
 
     public static void main(String[] args) {
-        String colors = "AAABABB";
+        String colors = "AAABBB";
         System.out.println("The winner of the game is " +new winner0fGame().winner(colors));
     }
 }
