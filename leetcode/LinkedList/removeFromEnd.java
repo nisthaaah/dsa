@@ -7,12 +7,12 @@ public class removeFromEnd {
         Node slow = dummy;
         Node fast = head;
         //1, 2, 3, 4, 5
-        for(int i = 0; i < n; i++){ //n = 2
-            fast = fast.next; //2
+        for(int i = 0; i < n; i++){ //n = 3
+            fast = fast.next; //3
         }
         while(fast != null){
-            slow = slow.next; //1, 2, 3
-            fast = fast.next; //3, 4, 5
+            slow = slow.next; //1, 2
+            fast = fast.next; //4, 5
         }
         slow.next = slow.next.next;
         return dummy.next; //1, 2, 3, 5
@@ -61,7 +61,7 @@ public class removeFromEnd {
         System.out.println("\nOriginal Linked list: ");
         r.printList(r.head);
 
-        Node updatedHead = r.remove(r.head, 2);
+        Node updatedHead = r.remove(r.head, 3);
     
         System.out.println("\nLinked List after removing the element: ");
         r.printList(updatedHead);

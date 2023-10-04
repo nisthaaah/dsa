@@ -1,28 +1,26 @@
 package leetcode.LinkedList;
-import java.util.*;
 
 public class intersection {
     public Node intersection(Node headA, Node headB){
-        if(headA == null || headB == null) return null;
-
-        Node a_ptr = headA;
-        Node b_ptr = headB;
-
+        if(headA == null || headB == null) return null;       //A: 1--
+        Node a_ptr = headA;                                  //       \
+        Node b_ptr = headB;                                 //         2-> 3
+                                                           //B: 4-> 5--
         while(a_ptr!=b_ptr){
             if(a_ptr!=null){
-                a_ptr = a_ptr.next;
+                a_ptr = a_ptr.next; //2, 3, null
             }
             else{
-                a_ptr = headB;
+                a_ptr = headB; //4, 5, 2
             }
             if(b_ptr!=null){
-                b_ptr = b_ptr.next;
+                b_ptr = b_ptr.next; //5, 2, 3
             }
             else{
-                b_ptr = headA;
+                b_ptr = headA; //1, 2
             }
         }
-        return a_ptr;
+        return a_ptr; //2
     }
 
     Node head;
