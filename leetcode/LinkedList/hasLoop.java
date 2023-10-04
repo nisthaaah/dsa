@@ -54,7 +54,6 @@ public class hasLoop {
         ll.append(2);
         ll.append(3);
         ll.append(4);
-        ll.append(5);
 
         ll.tail.next = ll.head.next;
         //ll.printList();
