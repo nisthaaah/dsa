@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "oddEvenLL",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.oddEvenLL",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sortLL",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.sortLL",
