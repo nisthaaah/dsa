@@ -1,5 +1,9 @@
 package leetcode.String;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.Stack;
 
 public class removeDuplicateLetters {
     public String remove(String s){
@@ -31,6 +35,6 @@ public class removeDuplicateLetters {
 
     public static void main(String[] args) {
         String s = "cbacdcbc";
-        System.out.println("The String after removing duplicates(lexicographical order) is: " +new removeDuplicateLetters().remove(s));
+        System.out.println("\nThe String after removing duplicates(lexicographical order) is: " +new removeDuplicateLetters().remove(s));
     }
 }

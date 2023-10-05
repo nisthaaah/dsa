@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MoveRepeatedCharsToEnd",
+      "request": "launch",
+      "mainClass": "leetcode.String.MoveRepeatedCharsToEnd",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "removeDuplicateLetters",
+      "request": "launch",
+      "mainClass": "leetcode.String.removeDuplicateLetters",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "recurmoveall",
+      "request": "launch",
+      "mainClass": "leetcode.LinkedList.recurmoveall",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "oddEvenLL",
       "request": "launch",
       "mainClass": "leetcode.LinkedList.oddEvenLL",
