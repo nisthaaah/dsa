@@ -56,7 +56,7 @@ public class oddEvenLL {
         oe.append(2);
         oe.append(3);
         oe.append(4);
-        oe.append(5);
+        //oe.append(5);
 
         System.out.println("\nOriginal Linked List: ");
         oe.printList(oe.head);
