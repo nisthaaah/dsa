@@ -1,5 +1,6 @@
 package leetcode.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class majorityElement2 {
     public List<Integer> majorityElement(int[] nums){
