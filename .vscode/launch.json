@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "keypad",
+      "request": "launch",
+      "mainClass": "recursion.keypad",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subsequencesUnique",
+      "request": "launch",
+      "mainClass": "recursion.subsequencesUnique",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "subsequences",
       "request": "launch",
       "mainClass": "recursion.subsequences",
