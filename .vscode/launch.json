@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sum",
+      "request": "launch",
+      "mainClass": "recursion.Sum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "integerProduct",
       "request": "launch",
       "mainClass": "leetcode.Random.integerProduct",
