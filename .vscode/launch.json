@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sortedArray",
+      "request": "launch",
+      "mainClass": "recursion.sortedArray",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "firstLastOccurence",
+      "request": "launch",
+      "mainClass": "recursion.firstLastOccurence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "stringReverse",
+      "request": "launch",
+      "mainClass": "recursion.stringReverse",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "towerOfHanoi",
       "request": "launch",
       "mainClass": "recursion.towerOfHanoi",
