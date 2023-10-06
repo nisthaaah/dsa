@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "powerHeightlogn",
+      "request": "launch",
+      "mainClass": "recursion.powerHeightlogn",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "recursion.Factorial",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "Sum",
       "request": "launch",
       "mainClass": "recursion.Sum",
