@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "moveToEnd",
+      "request": "launch",
+      "mainClass": "recursion.moveToEnd",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sortedArray",
       "request": "launch",
       "mainClass": "recursion.sortedArray",

@@ -7,13 +7,21 @@ public class sortedArray { //strictly increasing
             return true;
         }
 
-        if(arr[i] < arr[i + 1]){
-            return sorted(arr, i + 1);
-        }
-        else{
+        if(arr[i] >= arr[i + 1]){
             System.out.println("The array is sorted: ");
             return false;
         }
+        else{
+            return sorted(arr, i + 1);
+        }
+
+        // if(arr[i] < arr[i + 1]){
+        //     return sorted(arr, i + 1);
+        // }
+        // else{
+        //     System.out.println("The array is sorted: ");
+        //     return false;
+        // }
     }
 
     public static void main(String[] args) {
