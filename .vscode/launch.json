@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "integerProduct",
+      "request": "launch",
+      "mainClass": "leetcode.Random.integerProduct",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "moveRepeated",
+      "request": "launch",
+      "mainClass": "leetcode.String.moveRepeated",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "MoveRepeatedCharsToEnd",
       "request": "launch",
       "mainClass": "leetcode.String.MoveRepeatedCharsToEnd",
