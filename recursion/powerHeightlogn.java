@@ -6,11 +6,12 @@ class powerHeightlogn {
         if(base == 0) return 0;
         if(exponent == 0) return 1;
 
+        int half = calcPower(base, exponent / 2);
         if(exponent % 2 == 0){ //even power
-            return calcPower(base, exponent/2) * calcPower(base, exponent/2);
+            return half * half;
         }
         else{ //odd power
-            return calcPower(base, exponent/2) * calcPower(base, exponent/2) * base;
+            return half * half * base;
         }
         
     }

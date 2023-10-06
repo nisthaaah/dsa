@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "towerOfHanoi",
+      "request": "launch",
+      "mainClass": "recursion.towerOfHanoi",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "powerHeightlogn",
       "request": "launch",
       "mainClass": "recursion.powerHeightlogn",
