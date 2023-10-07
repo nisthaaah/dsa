@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findSubsets",
+      "request": "launch",
+      "mainClass": "recursion.findSubsets",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "partyGuest",
+      "request": "launch",
+      "mainClass": "recursion.partyGuest",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "placeTiles",
       "request": "launch",
       "mainClass": "recursion.placeTiles",
