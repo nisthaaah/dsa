@@ -8,7 +8,7 @@ public class placeTiles {
         int verticallyPlaced = tiles(n - m, m);
         int horizontallyPlaced = tiles(n - 1, m);
 
-        return verticallyPlaced + horizontallyPlaced; //
+        return verticallyPlaced + horizontallyPlaced;
     }
 
     public static void main(String[] args) {
