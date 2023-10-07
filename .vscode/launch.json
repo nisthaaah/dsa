@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "permutation",
+      "request": "launch",
+      "mainClass": "recursion.permutation",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "keypad",
       "request": "launch",
       "mainClass": "recursion.keypad",
