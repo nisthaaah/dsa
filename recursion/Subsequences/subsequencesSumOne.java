@@ -1,22 +1,25 @@
-package recursion;
+package recursion.Subsequences;
 import java.util.ArrayList;
 
-public class subsequencesSumK {
-    public static void subsequences(int[] arr, int i, ArrayList<Integer> subseq, int sum, int s){
+public class subsequencesSumOne { //to print only one sub sequence of sum K
+    public static boolean subsequences(int[] arr, int i, ArrayList<Integer> subseq, int sum, int s){
         if(i == arr.length){
             if(sum == s){
                 System.out.println(subseq);
+                return true;
             }
-            return;
+            return false;
         }
 
         subseq.add(arr[i]);
         s += arr[i];
-        subsequences(arr, i + 1, subseq, sum, s);
+        if(subsequences(arr, i + 1, subseq, sum, s) ==  true) return true;
 
         subseq.remove(subseq.size() - 1);
         s -= arr[i];
-        subsequences(arr, i + 1, subseq, sum, s);
+        if(subsequences(arr, i + 1, subseq, sum, s) == true) return true;
+
+        else return false;
 
 
     }

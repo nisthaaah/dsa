@@ -1,4 +1,4 @@
-package recursion;
+package recursion.Subsequences;
 
 public class subsequences {
     public static void subsequences(String s, int i, String newStr){
