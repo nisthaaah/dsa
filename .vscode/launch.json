@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseStack",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.reverseStack",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "sortStack",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.sortStack",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "subsequencesSumK",
       "request": "launch",
       "mainClass": "recursion.Subsequences.subsequencesSumK",
