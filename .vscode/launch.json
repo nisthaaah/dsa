@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subsequencesSumK",
+      "request": "launch",
+      "mainClass": "recursion.Subsequences.subsequencesSumK",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "subsequencesCount",
       "request": "launch",
       "mainClass": "recursion.Subsequences.subsequencesCount",

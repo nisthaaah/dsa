@@ -24,6 +24,6 @@ public class subsequencesSumK {
     public static void main(String[] args) {
         ArrayList<Integer> subseq = new ArrayList<>();
         int[] arr = {1, 2, 1};
-        subsequences(arr, 0, subseq, 2, 0);
+        subsequences(arr, 0, subseq, 3, 0);
     }
 }
