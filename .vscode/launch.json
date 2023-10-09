@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "combinationSum2",
+      "request": "launch",
+      "mainClass": "recursion.combinationSum2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "combinationSum",
+      "request": "launch",
+      "mainClass": "recursion.combinationSum",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "firstLastOccurence",
       "request": "launch",
       "mainClass": "leetcode.Array.firstLastOccurence",

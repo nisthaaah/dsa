@@ -20,8 +20,6 @@ public class subsequencesSumOne { //to print only one sub sequence of sum K
         if(subsequences(arr, i + 1, subseq, sum, s) == true) return true;
 
         else return false;
-
-
     }
 
     public static void main(String[] args) {
