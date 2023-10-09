@@ -25,7 +25,7 @@ public class combinationSum2 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,2,4,5};
+        int[] nums = {10,1,2,7,6,1,5};
         int target = 8;
         System.out.println("The combinations that sum up to " +target +": " +combination(nums, target));
     }
