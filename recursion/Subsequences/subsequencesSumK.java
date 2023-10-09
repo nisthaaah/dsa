@@ -17,8 +17,6 @@ public class subsequencesSumK {
         subseq.remove(subseq.size() - 1);
         s -= arr[i];
         subsequences(arr, i + 1, subseq, sum, s);
-
-
     }
 
     public static void main(String[] args) {

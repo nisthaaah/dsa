@@ -1,5 +1,6 @@
-package leetcode.String;
-import java.util.*;
+package recursion;
+import java.util.ArrayList;
+import java.util.List;
 
 public class generateParentheses {
     public List<String> generateParentheses(int n){
@@ -23,7 +24,7 @@ public class generateParentheses {
     public static void main(String[] args){
         int n = 3;
         System.out.println("The generated parentheses for " +n+ " are: " +new generateParentheses().generateParentheses(n));
-    }   
+    }
 }
 //                              (
 //                   ((                    ()
