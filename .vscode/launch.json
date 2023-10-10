@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "permutation2",
+      "request": "launch",
+      "mainClass": "recursion.Permutation.permutation2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "permutation1",
+      "request": "launch",
+      "mainClass": "recursion.Permutation.permutation1",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "subset2",
       "request": "launch",
       "mainClass": "recursion.Subset.subset2",

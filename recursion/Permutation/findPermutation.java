@@ -1,6 +1,6 @@
-package recursion;
+package recursion.Permutation;
 
-public class permutation {
+public class findPermutation {
     public static void printPerm(String s, String permutation){
         if(s.length() == 0){
             System.out.print(permutation + " ");
