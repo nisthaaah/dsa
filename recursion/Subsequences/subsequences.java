@@ -16,7 +16,7 @@ public class subsequences {
     }
 
     public static void main(String[] args) {
-        String s = "abc";
+        String s = "122";
         subsequences(s, 0, "");
     }
 }

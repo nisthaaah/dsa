@@ -25,7 +25,7 @@ public class subsequencesUnique {
 
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
-        String s = "aaa";
+        String s = "122";
         subsequencesUnique(s, 0, "", set);
     }
 }

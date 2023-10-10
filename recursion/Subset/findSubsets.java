@@ -1,4 +1,4 @@
-package recursion;
+package recursion.Subset;
 import java.util.ArrayList;
 
 public class findSubsets {

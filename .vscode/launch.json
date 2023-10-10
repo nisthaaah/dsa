@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subset2",
+      "request": "launch",
+      "mainClass": "recursion.Subset.subset2",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subset1",
+      "request": "launch",
+      "mainClass": "recursion.Subset.subset1",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "findSubsets",
+      "request": "launch",
+      "mainClass": "recursion.Subset.findSubsets",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subset1",
+      "request": "launch",
+      "mainClass": "recursion.subset1",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subsequencesUnique",
+      "request": "launch",
+      "mainClass": "recursion.Subsequences.subsequencesUnique",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subsequences",
+      "request": "launch",
+      "mainClass": "recursion.Subsequences.subsequences",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "combinationSum2",
       "request": "launch",
       "mainClass": "recursion.combinationSum2",
