@@ -23,7 +23,7 @@ public class combinationSum3 {
 
 public static void main(String[] args) {
     int n = 9; //sum
-    int k = 2;
+    int k = 3;
     System.out.println("The combination sum for " +n+ " is " +new combinationSum3().combination3(n, k));
     }
 }
