@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nQueens",
+      "request": "launch",
+      "mainClass": "recursion.nQueens",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "combinationSum3",
       "request": "launch",
       "mainClass": "recursion.Combination.combinationSum3",
