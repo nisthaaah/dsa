@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sudokuSolver",
+      "request": "launch",
+      "mainClass": "recursion.sudokuSolver",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "nQueens",
       "request": "launch",
       "mainClass": "recursion.nQueens",
