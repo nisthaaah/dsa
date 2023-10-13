@@ -87,7 +87,7 @@ public class nQueens {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
         System.out.println("The solutions to the n-queens puzzle: \n" +solveNQueens(n));
     }
 }
