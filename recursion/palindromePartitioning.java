@@ -40,7 +40,7 @@ public class palindromePartitioning {
     }
 
     public static void main(String[] args) {
-        String s = "aa";
+        String s = "aab";
         System.out.println("The possible palindrome partitioning of string " +s +": " +partition(s));
     }
 }
