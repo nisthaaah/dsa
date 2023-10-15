@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "nextPermutation",
+      "request": "launch",
+      "mainClass": "leetcode.Array.nextPermutation",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "palindromePartitioning",
       "request": "launch",
       "mainClass": "recursion.palindromePartitioning",
