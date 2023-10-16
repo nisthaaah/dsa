@@ -21,5 +21,5 @@ public class majorityElement {
     public static void main(String[] args){
         int[] nums = {1,2,2,1,2,1,1};
         System.out.println("The majority element is: " +new majorityElement().majorityElement(nums)); //default constructor
-    }  
+    }
 }
