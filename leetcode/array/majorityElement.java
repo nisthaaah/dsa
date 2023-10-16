@@ -7,19 +7,19 @@ public class majorityElement {
 
         for(int num : nums){
             if(count == 0){
-                candidate = num;
+                candidate = num; //candidate = 1
             }
             if(num == candidate){
-                count++;
+                count++; //1, 0, 0
             }
             else{
-                count--;
+                count--; //0, -1, -1
             }
         }
         return candidate;
     }
     public static void main(String[] args){
-        int[] nums = {1,2,2,1,2,1,1};
+        int[] nums = {1,2,2,1,2};
         System.out.println("The majority element is: " +new majorityElement().majorityElement(nums)); //default constructor
     }
 }
