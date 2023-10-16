@@ -29,7 +29,7 @@ public class sortColor {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2,0,2,1,1,0};
+        int[] nums = {2,0,2,1,1,0,1};
         sort(nums);
         System.out.println("After sorting: ");
         for(int num : nums){
