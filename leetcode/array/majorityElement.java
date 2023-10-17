@@ -19,7 +19,7 @@ public class majorityElement {
         return candidate;
     }
     public static void main(String[] args){
-        int[] nums = {1,2,2,1,2,2};
+        int[] nums = {1,2,2,1};
         System.out.println("The majority element is: " +new majorityElement().majorityElement(nums)); //default constructor
     }
 }
