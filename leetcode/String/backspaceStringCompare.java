@@ -33,7 +33,7 @@ public class backspaceStringCompare {
 
     public static void main(String[] args) {
         String s = "ab#c";
-        String t = "ab";
+        String t = "abc#";
         System.out.println("The Strings are equal: " +new backspaceStringCompare().backspaceString(s, t));
     }
 }
