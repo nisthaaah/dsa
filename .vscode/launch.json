@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "backspaceStringCompare",
+      "request": "launch",
+      "mainClass": "leetcode.String.backspaceStringCompare",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "sortColor",
       "request": "launch",
       "mainClass": "leetcode.Array.sortColor",
