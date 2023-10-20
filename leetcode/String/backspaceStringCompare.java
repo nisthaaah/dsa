@@ -1,5 +1,4 @@
 package leetcode.String;
-
 import java.util.Stack;
 
 public class backspaceStringCompare {
