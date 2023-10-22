@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "repeatedStringMatch",
+      "request": "launch",
+      "mainClass": "leetcode.String.repeatedStringMatch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "makeMinValidParentheses",
       "request": "launch",
       "mainClass": "leetcode.Stack.makeMinValidParentheses",
