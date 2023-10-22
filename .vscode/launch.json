@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "makeMinValidParentheses",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.makeMinValidParentheses",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "minValidParentheses",
+      "request": "launch",
+      "mainClass": "leetcode.Stack.minValidParentheses",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "backspaceStringCompare",
       "request": "launch",
       "mainClass": "leetcode.String.backspaceStringCompare",

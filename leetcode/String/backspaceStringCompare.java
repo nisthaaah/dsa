@@ -2,7 +2,7 @@ package leetcode.String;
 import java.util.Stack;
 
 public class backspaceStringCompare {
-    public static boolean backspaceString(String s, String t){
+    public boolean backspaceString(String s, String t){
         Stack<Character> s1 = new Stack<>();
         Stack<Character> s2 = new Stack<>();
 
@@ -31,7 +31,7 @@ public class backspaceStringCompare {
     }
 
     public static void main(String[] args) {
-        String s = "ab#c";
+        String s = "abcd";
         String t = "ab##";
         System.out.println("The Strings are equal: " +new backspaceStringCompare().backspaceString(s, t));
     }
