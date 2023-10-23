@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isPower3",
+      "request": "launch",
+      "mainClass": "leetcode.Random.isPower.isPower3",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "isPower2",
       "request": "launch",
       "mainClass": "leetcode.Random.isPower.isPower2",
