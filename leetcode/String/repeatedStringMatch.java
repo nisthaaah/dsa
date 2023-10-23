@@ -18,8 +18,8 @@ public class repeatedStringMatch {
     }
 
     public static void main(String[] args) {
-        String a  = "cc";
-        String b = "c";
+        String a  = "abcd";
+        String b = "cdabcdab";
         System.out.println("The minimum number of times you should repeat string a so that string b is a substring of it: " +new repeatedStringMatch().repeatedStringMatch(a, b));
     }
 }
