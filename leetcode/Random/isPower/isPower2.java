@@ -9,7 +9,7 @@ public class isPower2 {
     }
 
     public static void main(String[] args) {
-        int n = 7;
+        int n = 11;
         System.out.println("The integer " +n+ " is a power of 2: " +new isPower2().isPower2(n));
     }
 }
