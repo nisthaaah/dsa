@@ -34,6 +34,5 @@ public class inOrderDfs {
         
             System.out.print("Inorder Traversal: ");
             i.inOrder(root);
-        }
-
+    }
 }
