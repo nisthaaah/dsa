@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "inOrderDfs",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.dfs.inOrderDfs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "postOrderDfs",
       "request": "launch",
       "mainClass": "leetcode.Trees.dfs.postOrderDfs",
