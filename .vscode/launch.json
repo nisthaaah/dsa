@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "preOrderDfs",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.dfs.preOrderDfs",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "largestValnEachRow",
       "request": "launch",
       "mainClass": "leetcode.Trees.largestValnEachRow",
