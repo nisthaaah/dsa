@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "largestValnEachRow",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.largestValnEachRow",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "breadthFirstSearch",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.bfs.breadthFirstSearch",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "isPower3",
       "request": "launch",
       "mainClass": "leetcode.Random.isPower.isPower3",

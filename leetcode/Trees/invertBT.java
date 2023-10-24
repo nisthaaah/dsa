@@ -41,5 +41,5 @@ public class invertBT {
 
         ArrayList<Integer> result = solution.invert(root);
         System.out.println("Inverted Binary Tree: " +result);
-    }   
+    }
 }
