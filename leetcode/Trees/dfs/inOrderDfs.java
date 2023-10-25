@@ -32,7 +32,7 @@ public class inOrderDfs {
             root.right.left = new Node(6);
             root.right.right = new Node(9);
         
-            System.out.print("Inorder Traversal: ");
-            i.inOrder(root);
+        System.out.print("Inorder Traversal: ");
+        i.inOrder(root);
     }
 }
