@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "findDuplicate",
+      "request": "launch",
+      "mainClass": "leetcode.twoPointers.findDuplicate",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "inOrderDfs",
       "request": "launch",
       "mainClass": "leetcode.Trees.dfs.inOrderDfs",

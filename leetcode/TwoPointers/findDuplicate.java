@@ -14,12 +14,12 @@ public class findDuplicate {
         while (slow != fast) {
             slow = nums[slow]; //slow = 0, 3, 4
             fast = nums[fast]; //fast = 2, 1, 4
-        } 
+        }
         return slow; //4
     }
 
     public static void main(String[] args){
-        int[] nums = {3,4,1,4,2};
+        int[] nums = {3,4,0,4,2};
 
         System.out.println("The duplicate element is: " +new findDuplicate().findDuplicate(nums));
     }
