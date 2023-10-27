@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "longestPalindrome",
+      "request": "launch",
+      "mainClass": "leetcode.String.longestPalindrome",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "findDuplicate",
       "request": "launch",
       "mainClass": "leetcode.twoPointers.findDuplicate",

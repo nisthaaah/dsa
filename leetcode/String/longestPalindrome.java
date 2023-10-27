@@ -37,7 +37,7 @@ public class longestPalindrome {
     }
 
     public static void main(String[] args){
-        String s = "cabad";
+        String s = "abbc";
         System.out.println("The longest palindromic Substring is: " +new longestPalindrome().longestPalindrome(s));
     }    
 }
