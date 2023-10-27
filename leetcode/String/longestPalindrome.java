@@ -21,7 +21,7 @@ public class longestPalindrome {
             }
 
             //even
-            left = i-1; 
+            left = i-1;
             right = i;
             while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
                 int len = right - left + 1;
@@ -37,7 +37,7 @@ public class longestPalindrome {
     }
 
     public static void main(String[] args){
-        String s = "abbcccd";
+        String s = "abbcccdeff";
         System.out.println("The longest palindromic Substring is: " +new longestPalindrome().longestPalindrome(s));
     }
 }
