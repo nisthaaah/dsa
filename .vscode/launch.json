@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseWords",
+      "request": "launch",
+      "mainClass": "leetcode.String.reverseWords",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "longestPalindrome",
       "request": "launch",
       "mainClass": "leetcode.String.longestPalindrome",
