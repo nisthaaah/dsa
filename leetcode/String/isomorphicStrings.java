@@ -1,5 +1,6 @@
 package leetcode.String;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class isomorphicStrings {
     public boolean isIsomorphic(String s, String t){
@@ -17,7 +18,7 @@ public class isomorphicStrings {
                 else return false;
             }
             else{
-                char mapped = charMap.get(original);  //If 'charMap' contains the original character, you retrieve the previously mapped 
+                char mapped = charMap.get(original);  //If 'charMap' contains the original character, you retrieve the previously mapped
                 if(mapped != replacement){           //replacement character and compare it with the current replacement character.
                     return false; //they are not the same
                 }
