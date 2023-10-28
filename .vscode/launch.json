@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "validAnagram",
+      "request": "launch",
+      "mainClass": "leetcode.String.validAnagram",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "rotateString",
       "request": "launch",
       "mainClass": "leetcode.String.rotateString",

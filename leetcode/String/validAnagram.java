@@ -1,7 +1,8 @@
 package leetcode.String;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class validAnagram {
+public class validAnagram {  //An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
     public boolean isAnagram(String s, String t){
         if(s.length() != t.length()) return false;
 
@@ -29,7 +30,7 @@ public class validAnagram {
 
     public static void main(String[] args) {
         String s = "anagram";
-        String t = "nagarem";
+        String t = "nagaram";
 
         System.out.println("Is Anagram: " +new validAnagram().isAnagram(s, t));
 
