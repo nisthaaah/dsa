@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rotateString",
+      "request": "launch",
+      "mainClass": "leetcode.String.rotateString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "reverseWords",
       "request": "launch",
       "mainClass": "leetcode.String.reverseWords",
