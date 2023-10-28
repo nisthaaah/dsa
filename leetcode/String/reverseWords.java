@@ -8,7 +8,7 @@ public class reverseWords {
         while(j >= i && s.charAt(j) == ' ') j--;
         s.substring(i, j + 1);
 
-        String[] words = s.split("\\s+");
+        String[] words = s.split("\\s+"); //splits a string s into an array of substrings based on one or more whitespace characters
 
         StringBuilder res = new StringBuilder();
         for(int k = words.length - 1; k > 0; k--){
