@@ -19,7 +19,7 @@ public class removeOutermostParentheses {
         return newS.toString();
     }
     public static void main(String[] args) {
-        String s = "(()())(())";
+        String s = "(()())(())()";
         System.out.println("The new String without outermost parentheses: " +new removeOutermostParentheses().remove(s));
             
     }
