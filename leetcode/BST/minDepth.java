@@ -49,5 +49,5 @@ public class minDepth {
         root.right.left= new Node(15);
 
         System.out.println("The minimum depth is: \n" +m.minDepth(root));
-    }   
+    }
 }

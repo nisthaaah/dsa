@@ -1,7 +1,7 @@
 package leetcode.BST;
 
 public class countNodes {
-    Node root; 
+    Node root;
 
     static class Node{
         int value;

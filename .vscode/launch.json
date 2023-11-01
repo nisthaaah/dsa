@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "modeBST",
+      "request": "launch",
+      "mainClass": "leetcode.BST.modeBST",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "lastWord",
       "request": "launch",
       "mainClass": "leetcode.String.lastWord",
