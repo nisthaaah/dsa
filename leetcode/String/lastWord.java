@@ -13,7 +13,7 @@ public class lastWord {
         return length;
     }
     public static void main(String[] args){
-        String s = "Hello world ";
+        String s = "Hello worldd ";
         System.out.println("Length of the Last Word: "+lastWord.lengthOfLastWord(s));
-    }  
+    }
 }
