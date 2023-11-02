@@ -57,7 +57,6 @@ public class modeBST {
         Node root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(2);
-        root.right.left= new Node(2);
         root.right.right = new Node(1);
 
         int[] res = new modeBST().mode(root);
