@@ -8,9 +8,9 @@ class Node {
    Node() {}
    Node(int val) { this.val = val; }
    Node(int val, Node left, Node right) {
-      this.val = val;
-      this.left = left;
-      this.right = right;
+    this.val = val;
+    this.left = left;
+    this.right = right;
     }
 }
 
@@ -34,7 +34,7 @@ public class averageOfSubtree {
         if(currSum / currCount == root.val){
             count++;
         }
-        return new int[] {currSum, currCount};
+        return new int[] {currSum, currCount}; //{0,1}, {1,1}, {9,3}, {6,1}, {11,2}, {24,6}
     }
     public static void main(String[] args) {
         averageOfSubtree av = new averageOfSubtree();
