@@ -28,7 +28,7 @@ public class averageOfSubtree {
         int[] left = dfs(root.left);
         int[] right = dfs(root.right);
 
-        int currSum = left[0] + right[0] +root.val;
+        int currSum = left[0] + right[0] + root.val;
         int currCount = left[1] + right[1] + 1;
 
         if(currSum / currCount == root.val){
