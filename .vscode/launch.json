@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "averageOfSubtree",
+      "request": "launch",
+      "mainClass": "leetcode.Trees.averageOfSubtree",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "modeBST",
       "request": "launch",
       "mainClass": "leetcode.BST.modeBST",
