@@ -1,5 +1,6 @@
 package leetcode.HashMap;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class nonRepeatingChar {
     public static Character nonRepeatingChar(String str){
@@ -19,7 +20,7 @@ public class nonRepeatingChar {
     public static void main(String[] args) {
         System.out.println(nonRepeatingChar("leetcode"));
         System.out.println(nonRepeatingChar("hello"));
-        System.out.println(nonRepeatingChar("aabbcc")); 
+        System.out.println(nonRepeatingChar("aabbcc"));
     }
     
 }
