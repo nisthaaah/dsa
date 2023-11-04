@@ -22,5 +22,4 @@ public class nonRepeatingChar {
         System.out.println(nonRepeatingChar("hello"));
         System.out.println(nonRepeatingChar("aabbcc"));
     }
-    
 }
