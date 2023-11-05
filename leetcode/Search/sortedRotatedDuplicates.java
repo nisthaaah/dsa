@@ -13,7 +13,7 @@ public class sortedRotatedDuplicates {
             if(nums[mid] == nums[low] && nums[mid] == nums[high]){ //to handle duplicates
                 low++; //1
                 high--; //3
-                continue; //[6,7,7]
+                continue; //[6, 7, 7]
             }
 
             else if(nums[mid] >= nums[low]){ //left is sorted
