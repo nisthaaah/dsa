@@ -9,20 +9,20 @@ public class secondSmallestLargest {
         int largest = Integer.MIN_VALUE;
         int second_largest = Integer.MIN_VALUE;
 
-        for(int i = 0; i < arr.length; i++){
+        for(int i = 0; i < arr.length; i++){//{1,2,3,4,5}
             //second smallest
             if(arr[i] < smallest){
                 second_smallest = smallest;
-                smallest = arr[i];
+                smallest = arr[i]; //1
             }
             else if(arr[i] < second_smallest && arr[i] != smallest){
-                second_smallest = arr[i];
+                second_smallest = arr[i]; //2
             }
 
             //second largest
             if(arr[i] > largest){
-                second_largest = largest;
-                largest = arr[i];
+                second_largest = largest; //MIN, 1, 2, 3, 4
+                largest = arr[i]; //1, 2, 3, 4, 5
             }
             else if(arr[i] > second_largest && arr[i] != largest){
                 second_largest = arr[i];
