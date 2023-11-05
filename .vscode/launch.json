@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "checkIfSorted",
+      "request": "launch",
+      "mainClass": "leetcode.Array.checkIfSorted",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "secondSmallestLargest",
       "request": "launch",
       "mainClass": "leetcode.Array.secondSmallestLargest",

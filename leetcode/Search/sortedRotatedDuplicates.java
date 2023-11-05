@@ -18,15 +18,15 @@ public class sortedRotatedDuplicates {
 
             else if(nums[mid] >= nums[low]){ //left is sorted
                 if(nums[mid] > target && target >= nums[low]){
-                    high = mid - 1; 
+                    high = mid - 1;
                 }
                 else{
                     low = mid + 1;
                 }
             }
-            else{ //right is sorted 
+            else{ //right is sorted
                 if(nums[mid] < target && target <= nums[high]){
-                    low = mid + 1; 
+                    low = mid + 1;
                 }
                 else{
                     high = mid - 1;

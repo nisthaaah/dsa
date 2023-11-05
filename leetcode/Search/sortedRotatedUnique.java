@@ -8,7 +8,7 @@ public class sortedRotatedUnique {
         while(low <= high){
             int mid = (low + high) / 2; //2 || 0 || 1
 
-            if(nums[mid] == target) return mid + 1; //2
+            if(nums[mid] == target) return mid; //2
 
             if(nums[mid] >= nums[low]){ //left is sorted
                 if(nums[mid] > target && target >= nums[low]){
@@ -18,7 +18,7 @@ public class sortedRotatedUnique {
                     low = mid + 1;
                 }
             }
-            else{ //right is sorted 
+            else{ //right is sorted
                 if(nums[mid] < target && target <= nums[high]){
                     low = mid + 1; //low = 1
                 }
