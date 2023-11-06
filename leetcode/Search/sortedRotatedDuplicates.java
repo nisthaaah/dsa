@@ -13,7 +13,7 @@ public class sortedRotatedDuplicates {
             if(nums[mid] == nums[low] && nums[mid] == nums[high]){ //to handle duplicates
                 low++; //1
                 high--; //3
-                continue; //[6, 7, 7]
+                continue; //[6,7,7]
             }
 
             else if(nums[mid] >= nums[low]){ //left is sorted
@@ -36,7 +36,7 @@ public class sortedRotatedDuplicates {
         return -1;
     }
     public static void main(String[] args) {
-        int[] nums = {7,6,7,7,7};
+        int[] nums = {7,6,7,7,7,7};
         int target = 7;
 
         System.out.println("The element is at position: " +new sortedRotatedDuplicates().searchDup(nums, target));
