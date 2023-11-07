@@ -36,7 +36,7 @@ public class sortedRotatedDuplicates {
         return -1;
     }
     public static void main(String[] args) {
-        int[] nums = {7,6,7,7,7,7};
+        int[] nums = {7,6,7,7,7};
         int target = 7;
 
         System.out.println("The element is at position: " +new sortedRotatedDuplicates().searchDup(nums, target));
