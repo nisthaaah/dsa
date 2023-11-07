@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "killMaxMonsters",
+      "request": "launch",
+      "mainClass": "leetcode.Random.killMaxMonsters",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "checkIfSorted",
       "request": "launch",
       "mainClass": "leetcode.Array.checkIfSorted",
