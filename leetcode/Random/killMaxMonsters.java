@@ -7,10 +7,10 @@ public class killMaxMonsters {
         double[] time = new double[n];
 
         for(int i = 0; i < n; i++){
-            time[i] = (double)dist[i] / speed[i]; //[1,1,2,3] || [0.6, 2, 1]
+            time[i] = (double)dist[i] / speed[i]; //[1,1,2,3] || [0.6,2,1]
         }
 
-        Arrays.sort(time); //[1,1,2,3] || [0.6, 1, 2]
+        Arrays.sort(time); //[1,1,2,3] || [0.6,1,2]
 
         for(int i = 0; i < n; i++){
             if(time[i] <= i){
