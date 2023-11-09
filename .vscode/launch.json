@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "numberOfHomogenousSubstring",
+      "request": "launch",
+      "mainClass": "leetcode.String.numberOfHomogenousSubstring",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "subSequence",
+      "request": "launch",
+      "mainClass": "leetcode.String.subSequence",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "setMatrixZeroes",
       "request": "launch",
       "mainClass": "leetcode.Array.setMatrixZeroes",
