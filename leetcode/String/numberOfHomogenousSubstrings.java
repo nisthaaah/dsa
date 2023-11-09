@@ -1,6 +1,6 @@
 package leetcode.String;
 
-public class numberOfHomogenousSubstring {
+public class numberOfHomogenousSubstrings {
     public int homogenous(String s){
         int res = s.length();
         int count = 1;
@@ -19,6 +19,6 @@ public class numberOfHomogenousSubstring {
     }
     public static void main(String[] args) {
         String s = "abbcccaa";
-        System.out.println("The number of homogenous substrings: " +new numberOfHomogenousSubstring().homogenous(s));
+        System.out.println("The number of homogenous substrings: " +new numberOfHomogenousSubstrings().homogenous(s));
     }
 }
