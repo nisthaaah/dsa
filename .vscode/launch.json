@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "spiralMatrix",
+      "request": "launch",
+      "mainClass": "leetcode.Array.spiralMatrix",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "numberOfHomogenousSubstring",
       "request": "launch",
       "mainClass": "leetcode.String.numberOfHomogenousSubstring",
