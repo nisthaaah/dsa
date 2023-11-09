@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rotateMatrix",
+      "request": "launch",
+      "mainClass": "leetcode.Array.rotateMatrix",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "killMaxMonsters",
       "request": "launch",
       "mainClass": "leetcode.Random.killMaxMonsters",
