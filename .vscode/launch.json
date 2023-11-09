@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "setMatrixZeroes",
+      "request": "launch",
+      "mainClass": "leetcode.Array.setMatrixZeroes",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "rotateMatrix",
       "request": "launch",
       "mainClass": "leetcode.Array.rotateMatrix",
