@@ -50,7 +50,6 @@ public class spiralMatrix {
         };
 
         List<Integer> res = new spiralMatrix().spiral(matrix);
-
         System.out.println(res);
     }
 }
