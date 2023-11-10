@@ -11,7 +11,7 @@ public class threeSumClosest {
             int k = arr.length - 1;
 
             while(j < k){
-                int sum = arr[i] + arr[j] + arr[k]; //-4 + -1 + 2 => -3
+                int sum = arr[i] + arr[j] + arr[k]; //-4 + -1 + 2 => -3 || -1 || 2
 
                 if(Math.abs(target - sum) < Math.abs(target - closestSum)){ //(1 - (-3)) < (1 - (-4)) => 4 < 5 || 2 < 5 || - 1 < 5
                     closestSum = sum; //-3 || -1 || 2
