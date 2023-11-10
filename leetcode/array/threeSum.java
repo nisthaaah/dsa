@@ -1,5 +1,7 @@
 package leetcode.Array;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class threeSum {
     public List<List<Integer>> threeSum(int[] arr){
@@ -10,11 +12,11 @@ public class threeSum {
         for(int i = 0; i < arr.length - 2; i++){ //1
             if(i > 0 && arr[i] == arr[i -1]) continue; //skip duplicates
 
-            int j = i + 1;  
-            int k = arr.length - 1; 
+            int j = i + 1;
+            int k = arr.length - 1;
 
             while(j < k){
-                int sum = arr[i] + arr[j] + arr[k]; 
+                int sum = arr[i] + arr[j] + arr[k];
 
                 if(sum == 0){
                     res.add(Arrays.asList(arr[i], arr[j], arr[k]));

@@ -6,7 +6,7 @@ public class pascalsTriangle {
     public List<List<Integer>> pascT(int numRows){
         if (numRows == 0) return new ArrayList<>();
 
-        List<List<Integer>> result = new ArrayList();
+        List<List<Integer>> result = new ArrayList<>();
         for(int i = 0; i < numRows; i++){ // 0 < 4
             List<Integer> row = new ArrayList<>();
             for(int j = 0; j <= i; j++ ){ //0 <= 4
@@ -15,7 +15,7 @@ public class pascalsTriangle {
                 }                                                                      // 1  2  1 [1st row(2nd element) + 1st row(1st element)]
                 else{                                                                 // 1  3  3  1
                     row.add(result.get(i-1).get(j) + result.get(i-1).get(j-1)); //result.get(1).get(1) + result.get(1).get(0) => 1 + 1 -> 2
-                }
+                }                                                              //(res.get(2).get(1) + res.get(2).get(0) [3], //(res.get(2).get(2) + res.get(2).get(1) [3]
             }
             result.add(row);
         }
