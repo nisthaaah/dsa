@@ -28,7 +28,7 @@ public class threeSumClosest {
     }
 
     public static void main(String[] args){
-        int[] arr = {-1,2,1,-4};
+        int[] arr = {-1,2,1};
         int target = 1;
 
         System.out.println("The three sum closest is: " +new threeSumClosest().threeSumClosest(arr, target));
