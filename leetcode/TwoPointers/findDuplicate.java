@@ -19,7 +19,7 @@ public class findDuplicate {
     }
 
     public static void main(String[] args){
-        int[] nums = {3,4,0,4,2};
+        int[] nums = {3,0,4,2,2};
 
         System.out.println("The duplicate element is: " +new findDuplicate().findDuplicate(nums));
     }
