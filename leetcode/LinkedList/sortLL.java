@@ -81,7 +81,7 @@ public class sortLL {
 
     public static void main(String[] args) {
         sortLL sl = new sortLL();
-        sl.append(4);
+        sl.append(7);
         sl.append(1);
         sl.append(2);
         sl.append(0);
