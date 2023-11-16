@@ -27,7 +27,7 @@ public class gcdLL {
 
     public int calcGcd(int a, int b){
         while(a != b){
-            if(a > b) a = a - b; // a = 12, 6 || a = 2
+            if(a > b) a = a - b; // a =  6 || a = 2
             else b = b - a; // b = 4 || b = 2
         }
         return a; //6 || 2
@@ -55,7 +55,7 @@ public class gcdLL {
 
     public static void main(String[] args){
         gcdLL g = new gcdLL();
-        g.append(18);
+        g.append(12);
         g.append(6);
         g.append(10);
         g.append(3);
