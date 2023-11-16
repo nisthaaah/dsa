@@ -17,7 +17,7 @@ public class gcdLL {
         Node curr = head;
         while(curr != null && curr.next != null){
             int gcd = calcGcd(curr.value, curr.next.value); //(18, 6) || (6, 10)
-            Node newNode = new Node(gcd); //6 || 
+            Node newNode = new Node(gcd); //6 || 2 || 1
             newNode.next = curr.next; //6 -> 6
             curr.next = newNode; //18 -> 6 -> 6 -> 2 -> 10 -> 1 -> 3
             curr = newNode.next; // curr => 6, 10
