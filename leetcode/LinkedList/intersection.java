@@ -63,9 +63,9 @@ public class intersection {
         headA.next = ll.new Node(2);
         headA.next.next = ll.new Node(3);
 
-        Node headB = ll.new Node(4);   
+        Node headB = ll.new Node(4);
         headB.next = ll.new Node(5);  // 1-> 2-> 3
-                                            // 4-> 5 -> 2
+                                            // 4-> 5 -> 7 -> 2
         headB.next.next = headA.next; // creating intersection
 
         Node intersectionNode = ll.intersection(headA, headB);
