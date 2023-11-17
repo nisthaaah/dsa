@@ -55,7 +55,7 @@ public class gcdLL {
 
     public static void main(String[] args){
         gcdLL g = new gcdLL();
-        g.append(12);
+        g.append(18);
         g.append(6);
         g.append(10);
         g.append(3);
