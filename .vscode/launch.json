@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "fibonacci",
+      "request": "launch",
+      "mainClass": "fibonacci",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "palindromic_pyramid",
+      "request": "launch",
+      "mainClass": "palindromic_pyramid",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "diamond",
+      "request": "launch",
+      "mainClass": "diamond",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "floyds_triangle",
+      "request": "launch",
+      "mainClass": "floyds_triangle",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "compressedStr1",
       "request": "launch",
       "mainClass": "leetcode.String.compressedStr1",

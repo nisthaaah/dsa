@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class palindromic_pyramid{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -14,7 +14,6 @@ public class palindromic_pyramid{
             for(int j=2; j<=i; j++){
                 System.out.print(j);
             }
-
             System.out.println();
         }
     }
