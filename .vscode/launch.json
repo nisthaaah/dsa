@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "compressedStr",
+      "request": "launch",
+      "mainClass": "leetcode.String.compressedStr",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "countAndSay",
+      "request": "launch",
+      "mainClass": "leetcode.String.countAndSay",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "calcLCM",
       "request": "launch",
       "mainClass": "leetcode.Random.calcLCM",
