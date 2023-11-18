@@ -1,7 +1,7 @@
 package leetcode.String;
 
-public class compressedStr {
-    public int compression(char[] chars){
+public class compressedStr1 {
+    public int compression1(char[] chars){
         int i = 0;
         int j = 0;
         while(j < chars.length){
@@ -26,9 +26,9 @@ public class compressedStr {
         return i;
     }
     public static void main(String[] args) {
-        compressedStr c = new compressedStr();
+        compressedStr1 c = new compressedStr1();
         char[] chars = {'a' ,'a', 'b', 'b', 'c', 'c', 'c'};
-        int newLength = c.compression(chars);
+        int newLength = c.compression1(chars);
         
         System.out.println("New length: " +newLength);
         System.out.print("Compressed String: " +"[");
