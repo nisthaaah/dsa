@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "compressedStr1",
+      "request": "launch",
+      "mainClass": "leetcode.String.compressedStr1",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "compressedStr2",
       "request": "launch",
       "mainClass": "leetcode.String.compressedStr2",

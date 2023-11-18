@@ -4,26 +4,26 @@ public class compressedStr1 {
     public int compression1(char[] chars){
         int i = 0;
         int j = 0;
-        while(j < chars.length){
-            char churrChar = chars[j];
-            int count = 0;
+        while(j < chars.length){ //7
+            char churrChar = chars[j]; //a, b, c
+            int count = 0; //0
 
             while(j < chars.length && chars[j] == churrChar){
-                count++;
-                j++;
+                count++; //count = 2
+                j++; //2, 4
             }
-            chars[i] = churrChar;
-            i++;
+            chars[i] = churrChar; //a
+            i++; //1,3,5
 
             if(count > 1){
-                String countStr = String.valueOf(count);
+                String countStr = String.valueOf(count); //"2"
                 for(char c : countStr.toCharArray()){
-                    chars[i] = c;
-                    i++;
-                }
+                    chars[i] = c; //'2', '2', '3'
+                    i++; //2,4,6
+                } //'a', '2', 'b', '2', 'c', '3'
             }
         }
-        return i;
+        return i; //6
     }
     public static void main(String[] args) {
         compressedStr1 c = new compressedStr1();
