@@ -2,12 +2,18 @@ package leetcode.Random;
 
 public class calcGCD { //HCF
     public int calcGcd(int n1, int n2){
-        while(n2 != 0){
-            int temp = n2;
-            n2 = n1 % n2;
-            n1 = temp;
+        //recursively
+        if(n2 == 0){
+            return n1;
         }
-        return n1;
+        return calcGcd(n2, n1 % n2);
+
+        // while(n2 != 0){
+        //     int temp = n2;
+        //     n2 = n1 % n2;
+        //     n1 = temp;
+        // }
+        // return n1;
 
         // while(n1 != n2){
         //     if(n1 > n2){
