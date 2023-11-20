@@ -18,5 +18,5 @@ public class reverseString {
         char[] s = {'h', 'e', 'l', 'l', 'o'};
         new reverseString().reverse(s);
         System.out.println("The reversed string is: " +Arrays.toString(s));
-    }  
+    }
 }
