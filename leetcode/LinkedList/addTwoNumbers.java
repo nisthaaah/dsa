@@ -27,7 +27,7 @@ public class addTwoNumbers {
                 l2 = l2.next; //6 || 4
             }
             sum += carry; //sum = 7 || sum = 10 || sum = 7+1 = 8
-            carry = sum/10; //carry = 0 || carry = 1 || carry = 0 
+            carry = sum/10; //carry = 0 || carry = 1 || carry = 0
             curr.next = new Node(sum % 10); // (7 % 10) = 7 || (10 % 10) = 0 || (8 % 10) = 8
             curr = curr.next; //7 -> 0 -> 8
         }
