@@ -1,5 +1,7 @@
 package leetcode.HashMap;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class twoSum {
     public static int[] twoSum(int arr[], int target){
@@ -9,7 +11,7 @@ public class twoSum {
             int num = arr[i];
             int complement = target - num;
             if(numMap.containsKey(complement)){
-                return new int[] {numMap.get(complement), i}; 
+                return new int[] {numMap.get(complement), i};
             }
             else numMap.put(num, i);
         }
