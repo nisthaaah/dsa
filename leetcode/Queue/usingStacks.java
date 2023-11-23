@@ -1,5 +1,5 @@
 package leetcode.Queue;
-import java.util.*;
+import java.util.Stack;
 
 public class usingStacks {
     Stack<Integer> s1 = new Stack<>();
@@ -9,7 +9,7 @@ public class usingStacks {
         if(s1.isEmpty()){
             s1.push(x); // <1> s1
             return;
-        }               
+        }
 
         while(!s1.isEmpty()){
             s2.push(s1.pop()); // <> s1, <1> s2 || <> s1, <1, 2> s2
