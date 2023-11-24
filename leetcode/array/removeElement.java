@@ -1,5 +1,4 @@
 package leetcode.Array;
-import java.util.Arrays;
 
 public class removeElement {
     public static int removeElement(int[] arr, int val){
@@ -13,18 +12,15 @@ public class removeElement {
                 // If the current element equals val, it is skipped
         }
         return i;
-    } 
+    }
     public static void main(String [] args){
-        int[] arr={1,1,1,1,1};
+        int[] arr={1,1,1,1,1,2};
         int val=1;
         int newLength1 = removeElement(arr, val);
-        //System.out.println("Original Array: " + Arrays.toString(arr));
-        System.out.println("Modified array: " + Arrays.toString(arr) + "\nNew length: " +newLength1);
+        System.out.println("Modified array: " );
+        System.out.println("Modified array: " );
+        for(int i = 0; i < newLength1; i++){
+            System.out.println(arr[i]);
+        }
     }
-    // public static void main(String[] args) {
-    //     int[] nums1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    //     int val1 = 1;
-    //     int newLength1 = removeElement(nums1, val1);
-    //     System.out.println("Test case 1: Modified array: " + Arrays.toString(nums1) + "\nNew length: " + newLength1);
-    // }
 }
