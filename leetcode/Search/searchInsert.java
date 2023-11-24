@@ -19,6 +19,6 @@ class searchInsert {
     public static void main(String[] args){
         int[] arr = {0,1,2,4};
         int target = 3;
-        System.out.println("Index: " +searchInsert(arr, target));  
+        System.out.println("Index at which target is present: " +searchInsert(arr, target));
     }
 }
