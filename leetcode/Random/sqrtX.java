@@ -23,7 +23,7 @@ public class sqrtX {
         return (int) right; //2
     }
     public static void main(String[] args){
-        int x = 8;
+        int x = 16;
         System.out.println("Sqrt of " + x +" is: "+mySqrt(x));
     }
 }
