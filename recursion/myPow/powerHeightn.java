@@ -1,4 +1,4 @@
-package recursion;
+package recursion.myPow;
 import java.util.Scanner;
 
 class powerHeightn{

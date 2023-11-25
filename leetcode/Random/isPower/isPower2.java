@@ -5,6 +5,8 @@ public class isPower2 {
         if(n <= 0){
             return false;
         }
+        // int N = (n & (n - 1));
+        // System.out.println(N);
         return (n & (n - 1)) == 0;
     }
 
