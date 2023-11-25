@@ -7,8 +7,8 @@ public class sqrtX {
         long right = x / 2; //8 / 2 = 4
         
         while(left <= right){
-            long mid = left + (right - left) / 2; //mid = 1+(4-1) = 4 || mid = 1+(3-1) = 3 || mid = 1+(2-1) = 2
-            long square = mid * mid; //16 || 9 || 4
+            long mid = (left + right) / 2; //mid = 1+4 / 2 = 2 || mid = 3+4 / 2 = 3|| mid = 3+3 / 2 = 3
+            long square = mid * mid; //4 || 9 || 9
 
             if(square == x){
                 return (int) mid;
@@ -23,7 +23,7 @@ public class sqrtX {
         return (int) right; //2
     }
     public static void main(String[] args){
-        int x = 16;
+        int x = 8;
         System.out.println("Sqrt of " + x +" is: "+mySqrt(x));
     }
 }
