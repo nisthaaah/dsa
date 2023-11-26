@@ -4,7 +4,7 @@ public class isPower4 {
     public boolean isPower4(int n){
         if(n == 1) return true;
         if(n <= 0) return false;
-        double base4 = Math.log(n) / Math.log(4);
+        double base4 = Math.log(n) / Math.log(4); //16/4 = 4
         return (base4 == (int)base4);
     }
 
