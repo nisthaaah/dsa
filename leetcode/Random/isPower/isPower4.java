@@ -9,7 +9,7 @@ public class isPower4 {
     }
 
     public static void main(String[] args) {
-        int n = 18;
+        int n = 64;
         System.out.println("The integer " +n+ " is a power of 4: " +new isPower4().isPower4(n));
     }
 }
