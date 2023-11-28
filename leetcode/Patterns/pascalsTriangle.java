@@ -24,7 +24,7 @@ public class pascalsTriangle {
 
     public static void main(String[] args){
         pascalsTriangle p = new pascalsTriangle();
-        int numRows = 5;
+        int numRows = 4;
 
         System.out.println("The pascal's triangle is:\n" +p.pascT(numRows));
     }
