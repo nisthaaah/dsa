@@ -9,7 +9,7 @@ public class isPower3 {
         return n == 1; //true
     }
     public static void main(String[] args) {
-        int n = 27;
+        int n = 81;
         System.out.println("The integer " +n+ " is a power of 3: " +new isPower3().isPower3(n));
     }
 }
