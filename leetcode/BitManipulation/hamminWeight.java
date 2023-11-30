@@ -20,7 +20,7 @@ public class hamminWeight {
     }
     public static void main(String[] args){
         hamminWeight h = new hamminWeight();
-        int n = 6; //011
+        int n = 4; //011
         //String binaryInput = "10110000000000000";
         //int n = Integer.parseUnsignedInt(binaryInput, 2); //radix:2 indicates that the input is in binary format.
 
