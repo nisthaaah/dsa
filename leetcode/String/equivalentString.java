@@ -2,16 +2,18 @@ package leetcode.String;
 
 public class equivalentString {
     public boolean equivalent(String[] word1, String[] word2){
-        StringBuilder s1 = new StringBuilder();
-        StringBuilder s2 = new StringBuilder();
+        // StringBuilder s1 = new StringBuilder();
+        // StringBuilder s2 = new StringBuilder();
 
-        for(String s : word1){
-            s1.append(s);
-        }
-        for(String s : word2){
-            s2.append(s);
-        }
-        return (s1.toString().equals(s2.toString()));
+        // for(String s : word1){
+        //     s1.append(s);
+        // }
+        // for(String s : word2){
+        //     s2.append(s);
+        // }
+        // return (s1.toString().equals(s2.toString()));
+
+        return String.join("", word1).equals(String.join("", word2));
     }
 
     public static void main(String[] args) {
