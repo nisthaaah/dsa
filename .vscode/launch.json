@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "equivalentString",
+      "request": "launch",
+      "mainClass": "leetcode.String.equivalentString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "powerHeightn",
       "request": "launch",
       "mainClass": "recursion.powerHeightn",
