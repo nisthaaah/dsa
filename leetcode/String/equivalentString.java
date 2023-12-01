@@ -17,8 +17,8 @@ public class equivalentString {
     }
 
     public static void main(String[] args) {
-        String[] word1 = {"ab", "c"};
-        String[] word2 = {"a", "bc"};
+        String[] word1 = {"ab", "cd"};
+        String[] word2 = {"a", "bcd"};
 
         System.out.println("The strings are equal: " +new equivalentString().equivalent(word1, word2));
     }
