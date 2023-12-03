@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "totalTime",
+      "request": "launch",
+      "mainClass": "leetcode.Array.totalTime",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "countCharacters",
       "request": "launch",
       "mainClass": "leetcode.String.countCharacters",
