@@ -17,7 +17,7 @@ public class totalTime {
     }
 
     public static void main(String[] args) {
-        int[][] points = {{1, 1}, {3, 4}, {-1, -1}};
+        int[][] points = {{1, 1}, {3, 4}, {-1, 0}};
         System.out.println("The minimum time to visit all points: " +new totalTime().minTimeToVisitAllPoints(points));
     }
 }
