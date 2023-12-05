@@ -17,7 +17,7 @@ public class maxMin {
             return new int[] {max, min};
     }
     public static void main(String[] args){
-        int arr[] = {4,3,2,1,9,0,-1};
+        int arr[] = {4,3,2,1,9,0,-2};
         int[] result=findMaxMin(arr);
         System.out.println("Maximum and the minimum element is " +Arrays.toString(result));
     }
