@@ -14,7 +14,7 @@ public class maxConsecutiveOnes {
     }
 
     public static void main(String[] args){
-        int[] arr = {1,0,1,1,1,0,1,2};
+        int[] arr = {1,0,0,1,1,1,0,1,2};
         System.out.println("The max consecutive number of ones are: " +new maxConsecutiveOnes().maxConsecutiveOnes(arr));
     }
 }
