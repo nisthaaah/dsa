@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "continuousSubarray",
+      "request": "launch",
+      "mainClass": "leetcode.Array.continuousSubarray",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "totalTime",
       "request": "launch",
       "mainClass": "leetcode.Array.totalTime",
