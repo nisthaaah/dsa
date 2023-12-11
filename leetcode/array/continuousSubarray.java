@@ -25,7 +25,7 @@ public class continuousSubarray {
 
     public static void main(String[] args) {
         int[] arr = {23,2,4,6,7};
-        int k = 7;
+        int k = 6;
         System.out.println("Good Subarray: " +new continuousSubarray().subArr(arr, k));
     }
 }
