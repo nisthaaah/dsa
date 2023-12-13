@@ -1,5 +1,5 @@
 package leetcode.Stack;
-import java.util.*;
+import java.util.Stack;
 
 public class parentheses {
     public static boolean isValid(String s) {
@@ -21,7 +21,7 @@ public class parentheses {
         return myStack.isEmpty();
     }
     public static void main(String[] args){
-        String s = "[](){";
+        String s = "[](){}";
         System.out.println("The String is valid: "+isValid(s));
-    }  
+    }
 }

@@ -1,5 +1,7 @@
 package leetcode.Stack;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class preOrder {
     Node root;
@@ -54,7 +56,7 @@ public class preOrder {
                 stack.add(currNode.left);
             }
         }
-        return result ;  
+        return result ;
     }
     public static void main(String[] args){
         preOrder p = new preOrder();
