@@ -22,7 +22,7 @@ public class generateParentheses {
         }
     }
     public static void main(String[] args){
-        int n = 3;
+        int n = 2;
         System.out.println("The generated parentheses for " +n+ " are: " +new generateParentheses().generateParentheses(n));
     }
 }
