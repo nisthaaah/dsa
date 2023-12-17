@@ -9,7 +9,7 @@ package oops;
     class Triangle extends Shape{ //sub class
         public void area(int l, int h){ //single level
             System.out.println("The area of the triangle is: " +0.5 * l * h);
-        }                     
+        }
     }
     
     class EquilateralTriangle extends Triangle{

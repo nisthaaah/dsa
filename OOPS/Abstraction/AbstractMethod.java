@@ -23,6 +23,7 @@ public class AbstractMethod {
     public static void main(String[] args){
         //Animal a = new Animal(); //abstract classes cannot be instantiated directly.
         Cat c = new Cat();
+        c.walk();
         //c.walk();
         //c.eat();
     }

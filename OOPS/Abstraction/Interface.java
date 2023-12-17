@@ -2,7 +2,7 @@ package oops.Abstraction;
 
 interface Engine{
     int price = 79000;
-    void start(); //by default public & abstract 
+    void start(); //by default public & abstract
     void stop();
     void acc();
 }
@@ -41,5 +41,5 @@ public class Interface {
         c.start();
         c.acc();
         c.stop();
-    }   
+    }
 }
