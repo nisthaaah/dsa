@@ -31,5 +31,5 @@ public class reverseWord {
     public static void main(String[] args) {
         String s = "ding dong";
         System.out.println("The reversed String: " +new reverseWord().reverse(s));
-    }  
+    }
 }
