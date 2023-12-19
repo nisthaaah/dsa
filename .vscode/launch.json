@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "occu",
+      "request": "launch",
+      "mainClass": "leetcode.String.occu",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "strOccu",
+      "request": "launch",
+      "mainClass": "leetcode.String.strOccu",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "continuousSubarray",
       "request": "launch",
       "mainClass": "leetcode.Array.continuousSubarray",

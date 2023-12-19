@@ -22,7 +22,7 @@ public class permutation1 {
         }
     }
     public static void main(String[] args) {
-        int[] nums = {1,3,4};
+        int[] nums = {1,2,3};
         System.out.println(permutate1(nums));
     }
 }
