@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "largestNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Array.largestNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "occu",
       "request": "launch",
       "mainClass": "leetcode.String.occu",
