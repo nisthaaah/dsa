@@ -43,7 +43,7 @@ public class removeNth {
         head.next.next.next = new Node(4);
         head.next.next.next.next = new Node(5);
 
-        Node removed = new removeNth().removeNthFromLast(head, 2);
+        Node removed = new removeNth().removeNthFromLast(head, 3);
 
         System.out.println("The list after removing the node from the end is: ");
         printList(removed);
