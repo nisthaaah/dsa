@@ -5,7 +5,7 @@ public class hasLoop {
         Node fast = head;
 	    Node slow =head;
 	    
-	    while( fast != null && fast.next != null ){
+	    while( fast != null && fast.next != null ){ //1, 2, 3, 4
 	          slow = slow.next;
 	          fast=fast.next.next;
 	          
