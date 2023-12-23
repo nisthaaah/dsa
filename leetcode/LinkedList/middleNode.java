@@ -4,11 +4,11 @@ public class middleNode{
     
     //find Middle node
     public Node findMiddleNode(){ //1-> 2-> 3-> 4-> 5-> 6
-        Node slow=head; ///1
-        Node fast=head; //1
+        Node slow = head; ///1
+        Node fast = head; //1
         while(fast!=null && fast.next!=null){
-            slow=slow.next; //2, 3, 4
-            fast=fast.next.next; //3, 5
+            slow = slow.next; //2, 3, 4
+            fast = fast.next.next; //3, 5
         }
         return slow; //4
     }
