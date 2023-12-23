@@ -1,4 +1,3 @@
-import java.util.*;
 class BinarySearch {
     int binarySearch(int arr[], int x, int low, int high){
         while(low <= high){
@@ -15,10 +14,10 @@ class BinarySearch {
     }
     return -1;
 }
-       
+
         public static void main(String[] args){
             int[] arr = {0,2,3,5};
 
-            System.out.println("The element is " +new BinarySearch().binarySearch(arr, 5, 0, 4));
+            System.out.println("The element is at index: " +new BinarySearch().binarySearch(arr, 5, 0, 4));
         }
     }
