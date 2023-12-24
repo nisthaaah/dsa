@@ -19,6 +19,6 @@ public class overriding {
         d.walk();
 
         Animal a1 = new Dog(); //upcasting
-        a1.walk(); 
+        a1.walk();
     }
 }

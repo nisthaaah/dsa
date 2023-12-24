@@ -11,7 +11,7 @@ public class Graph {
             adjList.put(vertex, new ArrayList<String>());
             return true;
         }
-        return false;  
+        return false;
    }
     public  boolean addEdge(String vertex1, String vertex2){
         if(adjList.containsKey(vertex1) && adjList.containsKey(vertex2)){

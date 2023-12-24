@@ -14,7 +14,7 @@ public class overloading {
     }
 
     public static void main(String[] args){
-        overloading o1 = new overloading(); 
+        overloading o1 = new overloading();
         o1.name = "nistha";
         o1.age = 23;
         o1.printInfo(o1.name, o1.age);

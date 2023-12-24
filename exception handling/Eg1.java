@@ -4,7 +4,7 @@ public class Eg1 {
     public static void main(String[] args){
     try{
         FileInputStream fis = new FileInputStream("c: abc.txt");
-        Class.forName("com.mysq.jdbc.Driver"); 
+        Class.forName("com.mysq.jdbc.Driver");
     }
     catch(Exception e){
         System.out.println(e);
