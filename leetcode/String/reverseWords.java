@@ -2,11 +2,9 @@ package leetcode.String;
 
 public class reverseWords {
     public String reverse(String s){
-        int i = 0;
-        int j = s.length() - 1;
-        while(i <= j && s.charAt(i) == ' ') i++;
-        while(j >= i && s.charAt(j) == ' ') j--;
-        s.substring(i, j + 1);
+        // int i = 0;
+        // int j = s.length() - 1;
+        s = s.trim();
 
         String[] words = s.split("\\s+"); //splits a string s into an array of substrings based on one or more whitespace characters
 

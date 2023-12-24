@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "subarrayXOR",
+      "request": "launch",
+      "mainClass": "leetcode.Array.subarrayXOR",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "largestNumber",
       "request": "launch",
       "mainClass": "leetcode.Array.largestNumber",

@@ -7,7 +7,7 @@ public class reverseWord {
         StringBuilder res = new StringBuilder();
 
         for(String word : words){
-            String reversedWord = reversed(word); 
+            String reversedWord = reversed(word);
             res.append(reversedWord).append(" ");
         }
         return res.toString().trim();
