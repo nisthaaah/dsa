@@ -2,10 +2,10 @@ package leetcode.String;
 
 public class reverse {
     public static void main(String[] args){
-        StringBuilder sb = new StringBuilder("aaa");
+        StringBuilder sb = new StringBuilder("blahh");
 
-        for(int i = 0; i < sb.length()/2; i++){
-            int front = i;
+        for(int i = 0; i < sb.length()/2; i++){ //2
+            int front = i; //0
             int back = sb.length() - 1 - i; //5-1-0 => 4
 
             char frontChar = sb.charAt(front);
