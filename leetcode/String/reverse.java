@@ -2,7 +2,7 @@ package leetcode.String;
 
 public class reverse {
     public static void main(String[] args){
-        StringBuilder sb = new StringBuilder("nistha");
+        StringBuilder sb = new StringBuilder("aaa");
 
         for(int i = 0; i < sb.length()/2; i++){
             int front = i;

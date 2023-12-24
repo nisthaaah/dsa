@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "leetcode.String.reverse",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
+      "name": "reverseString",
+      "request": "launch",
+      "mainClass": "leetcode.String.reverseString",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "subarrayXOR",
       "request": "launch",
       "mainClass": "leetcode.Array.subarrayXOR",
