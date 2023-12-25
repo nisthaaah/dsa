@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "palindromeNumber",
+      "request": "launch",
+      "mainClass": "leetcode.Random.palindromeNumber",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "reverse",
       "request": "launch",
       "mainClass": "leetcode.String.reverse",
