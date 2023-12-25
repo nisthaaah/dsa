@@ -4,7 +4,7 @@ class myThread1 extends Thread{
     public void run(){
         //System.out.println(Thread.currentThread().getName());
         System.out.println("Task 1 is executed by " +Thread.currentThread().getName());
-    } 
+    }
 }
 
 class myThread2 extends Thread{
@@ -30,5 +30,5 @@ public class mt3 {
         // //System.out.println(Thread.currentThread().getName());
         // System.out.println(10/0);
 
-    }  
+    }
 }
