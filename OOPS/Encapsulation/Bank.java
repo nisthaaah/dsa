@@ -5,7 +5,7 @@ class Account {
     protected String email;
     private String password;
     
-    //setters and getters method to access private 
+    //setters and getters method to access private
     public String getPw(){
         return this.password;
     }

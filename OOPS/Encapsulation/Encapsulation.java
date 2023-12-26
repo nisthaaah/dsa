@@ -5,7 +5,7 @@ public class Encapsulation {
         Account a = new Account();
         a.name = "nistha";
         a.email = "nistha@gmail.com";
-        a.setPw("abcd"); 
+        a.setPw("abcd");
         System.out.println(a.getPw());
     }
 }
