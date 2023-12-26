@@ -8,7 +8,7 @@ public class removeOutermostParentheses {
         int open = 0;
         for(char c : s.toCharArray()){
             if(c == '('){
-                open++;
+                open++; //2
                 if(open > 1) newS.append('(');
             }
             else{
@@ -16,10 +16,10 @@ public class removeOutermostParentheses {
                 open--;
             }
         }
-        return newS.toString();
+        return newS.toString(); //()()()()
     }
     public static void main(String[] args) {
-        String s = "(()())(())()";
+        String s = "(()())(()()";
         System.out.println("The new String without outermost parentheses: " +new removeOutermostParentheses().remove(s));
             
     }
