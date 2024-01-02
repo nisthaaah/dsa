@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "kmp",
+      "request": "launch",
+      "mainClass": "leetcode.Random.kmp",
+      "projectName": "dsa_759ce7fa"
+    },
+    {
+      "type": "java",
       "name": "palindromeNumber",
       "request": "launch",
       "mainClass": "leetcode.Random.palindromeNumber",
