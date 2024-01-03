@@ -84,7 +84,7 @@ public class sortLL {
         sl.append(7);
         sl.append(1);
         sl.append(2);
-        sl.append(0);
+        sl.append(3);
 
         System.out.println("\nOriginal Linked List: ");
         sl.printList(sl.head);
