@@ -58,7 +58,7 @@ public class gcdLL {
         g.append(18);
         g.append(6);
         g.append(10);
-        g.append(4);
+        g.append(3);
 
         System.out.println("Original Linked list: ");
         g.printList(g.head);
